@@ -3,10 +3,10 @@ import { Route, Switch } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import Layout from './pages/Layout';
 import Home from './pages/Home';
+import './app.scss';
 
 function App() {
   return (
-    <div className="App">
       <BrowserRouter>
         <Switch>
           <Route exact path="/">
@@ -14,7 +14,6 @@ function App() {
           </Route>
         </Switch>
       </BrowserRouter>
-    </div>
   );
 }
 
