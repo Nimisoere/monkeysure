@@ -1,0 +1,19 @@
+@import "../../../../color";
+
+.form-group-wrapper {
+  padding-left: 1rem;
+  border-radius: 4rem;
+  background-color: white;
+
+  .form-group-btn {
+    background-color: $base-color-green;
+    color: $base-color-slate;
+    border-radius: 0 4rem 4rem 0;
+    padding: 0.4rem;
+  }
+
+  .form-group-input {
+    color: $base-color-slate;
+    padding: 0.4rem;
+  }
+}

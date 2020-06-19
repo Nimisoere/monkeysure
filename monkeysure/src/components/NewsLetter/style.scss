@@ -1,0 +1,10 @@
+@import '../../color.scss'; 
+
+.wrapper-newsletter {
+  background-color: $base-color-slate;
+  color: white;
+}
+
+.newsletter-email-input {
+  min-width: 15rem;
+}
