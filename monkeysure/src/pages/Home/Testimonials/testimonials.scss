@@ -1,0 +1,15 @@
+@import "../../../color";
+
+.testimonials {
+  min-height: 20rem;
+  .thick-border {
+    border-top: 1rem solid $base-color-green;
+  }
+  .testimonial-card {
+    width: 12rem;
+    height: 210px;
+    hr {
+      border-color: $base-color-green;;
+    }
+  }
+}

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header className="flex items-center">
-    <div className="container py-4 mx-auto flex justify-between">
+    <div className="container py-6 mx-auto flex justify-between">
       <div className="">Monkey Sure</div>
       <div className="flex justify-between">
         <div className="flex justify-between">

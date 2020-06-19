@@ -1,0 +1,12 @@
+.banner-nav {
+  border-radius: 10px;
+  margin-top: -3rem;
+  .banner-links {
+    border-right: white solid thin;
+    padding: 1rem 2rem;
+    &:last-child {
+      border: none;
+    }
+  }
+}
+

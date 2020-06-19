@@ -1,0 +1,17 @@
+@import "../../../color";
+
+.services {
+  min-height: 20rem;
+  .service-card {
+    width: 12rem;
+    height: 210px;
+    text-align: center;
+    .service-btn {
+      width: 12rem;
+      border: $base-color-green thin solid;
+      border-radius: 10px;
+      padding: 0.5rem;
+      text-align: center;
+    }
+  }
+}

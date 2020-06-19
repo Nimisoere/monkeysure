@@ -1,0 +1,17 @@
+@import "../../../color";
+
+.value-props {
+  background-color: #EFEFEF;
+  min-height: 20rem;
+  .icons {
+    background-color: $base-color-slate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+}
+
