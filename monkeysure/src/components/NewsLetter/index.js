@@ -19,7 +19,7 @@ const Newsletter = () => (
         <div className="flex justify-between">
           {
             menu.map((item, index) => (
-              <div className="mr-6" key={index}>{item.text}</div>
+              <span className={`mr-6 social-icons fa ${item.text}`} key={index} />
             ))
           }
         </div>

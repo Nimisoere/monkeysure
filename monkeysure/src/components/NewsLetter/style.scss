@@ -8,3 +8,15 @@
 .newsletter-email-input {
   min-width: 15rem;
 }
+
+.social-icons {
+  background-color: $base-color-green;
+  color: $base-color-slate;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+}

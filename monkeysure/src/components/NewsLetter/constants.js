@@ -1,22 +1,22 @@
 export const menu = [
   {
-    text: 'F',
+    text: 'fa-facebook',
     link: '/insurance'
   },
   {
-    text: 'T',
+    text: 'fa-twitter',
     link: '/life'
   },
   {
-    text: 'I',
+    text: 'fa-instagram',
     link: '/health'
   },
   {
-    text: 'L',
+    text: 'fa-linkedin',
     link: '/money'
   },
   {
-    text: 'Y',
+    text: 'fa-youtube',
     link: '/travel'
   }
 ]
