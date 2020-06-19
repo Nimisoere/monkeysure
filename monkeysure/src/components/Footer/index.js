@@ -1,6 +1,7 @@
 import React from 'react';
 import { menu } from '../Footer/constants';
 import './style.scss';
+import { Link } from 'react-router-dom';
 
 const Footer = () => (
   <footer className="flex items-center">
@@ -9,7 +10,7 @@ const Footer = () => (
         <div className="flex py-8">
           {
             menu.map((item, index) => (
-              <div className="mr-6" key={index}>{item.text}</div>
+              <Link to={item.link} className="mr-6" key={index}>{item.text}</Link>
             ))
           }
         </div>
@@ -19,7 +20,7 @@ const Footer = () => (
           <div className="flex">
             {
               menu.map((item, index) => (
-                <div className="mr-6" key={index}>{item.text}</div>
+                <Link to={item.link} className="mr-6" key={index}>{item.text}</Link>
               ))
             }
           </div>

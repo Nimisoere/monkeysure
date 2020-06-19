@@ -32,3 +32,26 @@ main {
 header, main, footer {
   flex-shrink: 0;
 }
+
+.btn {
+  border-radius: 15rem;
+  box-shadow: 0 0 3px #CCC;
+  padding: 0.6rem;
+  min-width: 8rem;
+}
+
+.bg-primary {
+  background-color: $base-color-green;
+}
+
+.bg-secondary {
+  background-color: $base-color-slate;
+}
+
+.color-primary {
+  color: $base-color-green;
+}
+
+.color-secondary {
+  color: $base-color-slate;
+}

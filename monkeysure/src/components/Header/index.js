@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.scss';
 import { menu } from './constants';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header className="flex items-center">
@@ -10,7 +11,7 @@ const Header = () => (
         <div className="flex justify-between">
           {
             menu.map((item, index) => (
-              <div className="mr-6" key={index}>{item.text}</div>
+              <Link to={item.link} className="mr-6" key={index}>{item.text}</Link>
             ))
           }
         </div>

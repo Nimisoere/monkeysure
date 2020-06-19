@@ -2,6 +2,7 @@ import React from 'react';
 import './style.scss';
 import { menu, inputs } from './constants';
 import FormGroup from '../Shared/FormControls/Formgroup/FormGroup';
+import { Link } from 'react-router-dom';
 
 const Newsletter = () => (
   <section className="wrapper-newsletter flex items-center">
@@ -19,7 +20,9 @@ const Newsletter = () => (
         <div className="flex justify-between">
           {
             menu.map((item, index) => (
-              <span className={`mr-6 social-icons fa ${item.text}`} key={index} />
+              <Link to={item.link} className="mr-6" key={index}>
+                <span className={`social-icons fa ${item.text}`} key={index} />
+              </Link>
             ))
           }
         </div>

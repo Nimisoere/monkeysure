@@ -1,9 +1,8 @@
-import  React from 'react';
+import React from 'react';
+import MainBanner from './MainBanner';
 
 const Home = () => (
-    <div>
-        Hi
-    </div>
+  <MainBanner />
 );
 
 export default Home;
