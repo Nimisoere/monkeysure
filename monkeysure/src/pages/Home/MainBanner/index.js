@@ -8,12 +8,12 @@ import shield from '../../../assets/images/Vector Smart Object copy 3.png';
 
 const MainBanner = () => (
   <section className="banner flex">
-    <div className="container mx-auto py-4 flex items-center justify-between">
+    <div className="container mx-auto py-24 flex items-center justify-between">
       <div>
         <div className="banner-text">
-          <p className="font-light text-4xl">Affordable</p>
-          <p className="font-light  text-4xl color-primary">car protection</p>
-          <p className="font-light text-4xl">products</p>
+          <p className="font-light text-5xl">Affordable</p>
+          <p className="font-light  text-5xl color-primary">car protection</p>
+          <p className="font-light text-5xl">products</p>
         </div>
         <div className="flex py-4 items-center">
           <Link to="/">

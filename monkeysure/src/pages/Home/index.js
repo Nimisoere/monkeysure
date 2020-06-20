@@ -5,6 +5,8 @@ import Services from './Services';
 import ValueProposition from './ValueProposition';
 import Partners from './Partners';
 import Testimonials from './Testimonials';
+import Articles from './Articles';
+import Feature from './Feature';
 
 const Home = () => (
   <>
@@ -14,6 +16,8 @@ const Home = () => (
     <ValueProposition />
     <Partners />
     <Testimonials />
+    <Articles />
+    <Feature />
   </>
 );
 

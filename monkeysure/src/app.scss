@@ -38,7 +38,17 @@ header, main, footer {
   box-shadow: 0 0 3px #CCC;
   padding: 0.6rem;
   min-width: 8rem;
+  color: $base-color-slate;
 }
+
+.border-primary {
+  border: thin solid $base-color-green;
+}
+
+.border-primary {
+  border: thin solid $base-color-slate;
+}
+
 
 .bg-primary {
   background-color: $base-color-green;

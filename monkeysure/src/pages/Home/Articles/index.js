@@ -1,36 +1,37 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './banner.scss';
+import './articles.scss';
+import { menu } from './constants';
+import Carousel from '../../../components/Shared/Carousel';
 
-import phoneIcon from '../../../assets/images/phone.png';
-import carBackground from '../../../assets/images/Background copy 10.png';
-import shield from '../../../assets/images/Vector Smart Object copy 3.png';
-
-const MainBanner = () => (
-  <section className="banner flex">
-    <div className="container mx-auto py-4 flex items-center justify-between">
-      <div>
-        <div className="banner-text">
-          <p className="font-light text-4xl">Affordable</p>
-          <p className="font-light  text-4xl color-primary">car protection</p>
-          <p className="font-light text-4xl">products</p>
-        </div>
-        <div className="flex py-4 items-center">
-          <Link to="/">
-            <span className="phone-btn mr-6"><img width="20px" src={phoneIcon} alt="phone" /></span>
-          </Link>
-          <Link to="/">
-            <button className="btn bg-primary">Get a Quote</button>
-          </Link>
-        </div>
+const Articles = () => (
+  <section className="articles flex">
+    <div className="container thick-border mx-auto py-4">
+      <div className="w-full text-center">
+        <h4 className="text-xl font-normal">Articles and News</h4>
+        <p>A summary of tips, industry news and updates</p>
       </div>
-      <div className="flex justify-end items-center">
-        <img src={carBackground} width="500"  alt="car" />
-        <img src={shield} width="120" alt="car" />
+      <div className="w-full py-16">
+        <Carousel
+          aritcleArrowClassPrev="article-slider-arrow-prev"
+          aritcleArrowClassNext="article-slider-arrow-next"
+          settings={{
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          }}>
+          {
+            menu.map((item, index) => (
+              <div className="mr-8 h-full w-48" key={index}>
+                <img src={item.image} className="rounded" alt="" />
+                <h4 className="text-xl font-normal">{item.text}</h4>
+                <p>{item.description}</p>
+              </div>
+            ))
+          }
+        </Carousel>
       </div>
     </div>
 
   </section>
 );
 
-export default MainBanner;
+export default Articles;

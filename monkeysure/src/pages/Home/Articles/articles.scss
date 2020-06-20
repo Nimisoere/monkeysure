@@ -1,0 +1,20 @@
+@import "../../../color";
+
+.articles {
+  background-color: #EFEFEF;
+  min-height: 20rem;
+  .article-card {
+    width: 12rem;
+    height: 210px;
+  }
+  .article-slider-arrow-prev {
+    bottom: -15%;
+    left: 40%;
+    top: initial;
+  }
+  .article-slider-arrow-next {
+    bottom: -15%;
+    right: 40%;
+    top: initial;
+  }
+}
