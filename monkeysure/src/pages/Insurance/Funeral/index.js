@@ -1,17 +1,17 @@
 import React from 'react';
-import CarBanner from './CarMainBanner';
-import Brands from './Brands';
+import FuneralBanner from './FuneralMainBanner';
+import Brands from './FuneralBrands';
 import Steps from './Steps';
 import Guide from './Guide';
 
 
-const CarInsurance = () => (
-  <div className="car-insurance">
-   <CarBanner />
+const FuneralInsurance = () => (
+  <div className="funeral-insurance">
+   <FuneralBanner />
    <Brands />
    <Steps />
    <Guide />
   </div>
 );
 
-export default CarInsurance;
+export default FuneralInsurance;

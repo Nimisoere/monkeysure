@@ -5,7 +5,7 @@ import Steps from './Steps';
 import Guide from './Guide';
 
 
-const PhoneInsurance = () => (
+const LifeInsurance = () => (
   <div className="car-insurance">
    <CarBanner />
    <Brands />
@@ -14,4 +14,4 @@ const PhoneInsurance = () => (
   </div>
 );
 
-export default PhoneInsurance;
+export default LifeInsurance;
