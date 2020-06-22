@@ -1,0 +1,16 @@
+.car-banner {
+  background-color: #efefef;
+  min-height: 10rem;
+  position: relative;
+  .banner-text {
+    line-height: 3rem;
+  }
+  .car-widget {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 2rem 4rem;
+    background: rgba(0, 0, 0, 0.1);
+  }
+}

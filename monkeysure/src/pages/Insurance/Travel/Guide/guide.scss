@@ -1,0 +1,22 @@
+@import "../../../../color";
+
+.guide {
+  min-height: 20rem;
+  .guide-row {
+    border-bottom: thick solid #EEE;
+    display: flex;
+    padding: 3rem 0;
+    justify-content: center;
+    &:last-child {
+      border: none;
+    }
+    .guide-div {
+      border-right: thin solid #EEE;
+      padding: 1rem 3rem;
+      flex-basis: 50%;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}
