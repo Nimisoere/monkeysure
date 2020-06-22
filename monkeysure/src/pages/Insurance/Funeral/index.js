@@ -1,7 +1,7 @@
 import React from 'react';
 import FuneralBanner from './FuneralMainBanner';
 import Brands from './FuneralBrands';
-import Steps from './Steps';
+import Steps from './FuneralSteps';
 import Guide from './Guide';
 
 
