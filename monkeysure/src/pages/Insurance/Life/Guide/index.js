@@ -2,10 +2,10 @@ import React from 'react';
 import './guide.scss';
 
 const Guide = () => (
-  <section className="guide mb-12 flex">
+  <section className="life-guide mb-12 flex">
     <div className="container thick-border mx-auto py-4">
       <div className="w-full text-center">
-        <h4 className="text-xl font-normal">A quick guide to car insurance</h4>
+        <h4 className="text-xl font-normal">A quick guide to life insurance</h4>
         <p className="font-light">Before you proceed, the following info can help make an informed decision</p>
       </div>
       <div>
@@ -32,7 +32,7 @@ const Guide = () => (
       </div>
       <div className="flex justify-center">
         <button className="btn border-primary">
-          View glossary
+          View more
         </button>
       </div>
     </div>
