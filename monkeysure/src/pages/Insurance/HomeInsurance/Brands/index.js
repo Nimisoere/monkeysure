@@ -8,10 +8,10 @@ import logo4 from '../../../../assets/images/oldMutual.png';
 import logo5 from '../../../../assets/images/wakanow.png';
 
 const Brands = () => (
-  <section className="brands flex">
+  <section className="home-brands flex">
     <div className="container mx-auto py-10 flex items-center justify-between">
       <div className="w-full text-center">
-        <h4 className="text-lg font-normal">Compare these car insurance brands side by side</h4>
+        <h4 className="text-lg font-normal">Compare these home insurance brands side by side</h4>
         <div className="w-full flex items-center justify-center py-8">
           <div className="brands-logo-wrapper">
             <img className="brands-logo h-8" src={logo1} alt="logo" />

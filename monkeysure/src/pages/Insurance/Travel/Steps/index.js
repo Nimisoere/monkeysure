@@ -1,37 +1,35 @@
 import React from 'react';
-import './car-steps.scss';
-import FormGroup from '../../../../components/Shared/FormControls/Formgroup/FormGroup';
-import { inputs } from './constants';
+import './steps.scss';
 
 const Steps = () => (
-  <section className="steps flex">
+  <section className="travel-steps flex">
     <div className="container thick-border mx-auto py-4">
       <div className="w-full text-center">
-        <h4 className="text-xl font-normal">Want to compare Car Insurance Quotes</h4>
-        <p className="font-light">Use any of these 3 easy methods to get a Car Insurance Quote</p>
+        <h4 className="text-xl font-normal">Want to compare Travel Insurance Quotes</h4>
+        <p className="font-light">Roam the world with full confidence, knowing you and your baggage are safe</p>
       </div>
-      <div className="w-full py-12 flex justify-center">
+      <div className="w-full py-4 mx-6 flex justify-center">
         <div className="steps-div">
-          <div className="mb-10">
-            <h4 className="text-lg font-normal">Leave your details</h4>
-            <p className="font-light">and we'll call you back</p>
+          <div className="">
+            <h4 className="text-lg font-normal">Emergency medical care</h4>
+            <p className="font-light">In case of health emergency, rest assured of mediocre care at no cost to you</p>
           </div>
-          <FormGroup inputs={inputs} actionText="Call me" />
         </div>
         <div className="steps-div">
-          <div className="mb-10">
-            <h4 className="text-lg font-normal">Call us now</h4>
-            <p className="font-light">and get your obligation free car insurance quote</p>
+          <div className="">
+            <h4 className="text-lg font-normal">Luggage cover us now</h4>
+            <p className="font-light">Insurance covers luggage in cases of theft or loss in transit or destination</p>
           </div>
-          <p className="font-medium text-xl">0800 000 0000</p>
         </div>
         <div className="steps-div">
-          <div className="mb-10">
-            <h4 className="text-lg font-normal">Get quote online</h4>
-            <p className="font-light">for your car and be at rest</p>
+          <div className="">
+            <h4 className="text-lg font-normal">Life Insurance</h4>
+            <p className="font-light">Stay protected incase of any eventuality anywhere you are in the world</p>
           </div>
-          <button className="btn bg-primary">Start</button>
         </div>
+      </div>
+      <div className="w-full flex justify-center">
+        <button className="btn bg-primary">Get a quote</button>
       </div>
     </div>
 

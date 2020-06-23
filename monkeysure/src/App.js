@@ -24,7 +24,7 @@ function App() {
           <Route exact path="/life">
             <Layout component={<LifeInsurance />} />
           </Route>
-          <Route exact path="/home">
+          <Route exact path="/home-insurance">
             <Layout component={<HomeInsurance />} />
           </Route>
           <Route exact path="/phone">

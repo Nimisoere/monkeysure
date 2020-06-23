@@ -1,13 +1,13 @@
 import React from 'react';
-import CarBanner from './CarMainBanner';
+import Banner from './MainBanner';
 import Brands from './Brands';
 import Steps from './Steps';
 import Guide from './Guide';
 
 
 const HomeInsurance = () => (
-  <div className="car-insurance">
-   <CarBanner />
+  <div className="home-insurance">
+   <Banner />
    <Brands />
    <Steps />
    <Guide />
