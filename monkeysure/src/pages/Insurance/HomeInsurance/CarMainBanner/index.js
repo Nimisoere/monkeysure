@@ -20,7 +20,7 @@ const CarBanner = () => (
     </div>
     <div className="car-widget">
       <h4 className="mb-4 text-lg font-light">Search below for Auto Insurance Quote</h4>
-      <FormGroup inputs={inputs} actionText="Subscribe" />
+      <FormGroup inputs={inputs} actionText="Search" />
     </div>
   </section>
 );

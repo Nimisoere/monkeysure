@@ -2,6 +2,11 @@ export const inputs = [
   {
     name: 'email',
     type: 'email',
+    placeholder: 'Device Type',
+  },
+  {
+    name: 'email',
+    type: 'email',
     placeholder: 'Make',
   },
   {
@@ -9,14 +14,4 @@ export const inputs = [
     type: 'email',
     placeholder: 'Model',
   },
-  {
-    name: 'email',
-    type: 'email',
-    placeholder: 'Year',
-  },
-  {
-    name: 'email',
-    type: 'email',
-    placeholder: 'Description',
-  }
 ]
