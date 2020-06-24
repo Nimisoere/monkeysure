@@ -11,7 +11,7 @@ const Feature = () => (
         <h4 className="text-xl font-normal">The complete car guide</h4>
         <p>The complete guide to car brand and manufactirers in Nigeria. Find out all the information you need on insurance, renting and purchasing your dream car in this guide</p>
         <Link className="flex mt-8" to="/">
-          <button className="btn border-primary">Explore</button>
+          <button className="btn border-secondary">Explore</button>
         </Link>
       </div>
       <div className="flex justify-end items-center">

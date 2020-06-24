@@ -10,6 +10,8 @@ import HomeInsurance from './pages/Insurance/HomeInsurance';
 import PhoneInsurance from './pages/Insurance/Phone';
 import TravelInsurance from './pages/Insurance/Travel';
 import FuneralInsurance from './pages/Insurance/Funeral';
+import Confirmation from './pages/Confirmation';
+import CompareQuotes from './pages/CompareQuotes';
 
 function App() {
   return (
@@ -35,6 +37,15 @@ function App() {
           </Route>
           <Route exact path="/funeral">
             <Layout component={<FuneralInsurance />} />
+          </Route>
+          <Route exact path="/confirmation">
+            <Layout component={<Confirmation />} />
+          </Route>
+          <Route exact path="/compare-select">
+            <Layout component={<CompareQuotes />} />
+          </Route>
+          <Route exact path="/compare">
+            <Layout component={<Confirmation />} />
           </Route>
         </Switch>
       </BrowserRouter>

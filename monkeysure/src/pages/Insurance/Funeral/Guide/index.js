@@ -13,14 +13,14 @@ const Guide = () => (
           <div className="guide-div">
             <h4 className="text-lg font-normal">Funeral cover FAQs</h4>
             <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
-            <button className="mt-4 btn border-primary">
+            <button className="mt-4 btn border-secondary">
               View FAQs
             </button>
           </div>
           <div className="guide-div">
             <h4 className="text-lg font-normal">Funeral cover glossary</h4>
             <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
-            <button className="mt-4 btn border-primary">
+            <button className="mt-4 btn border-secondary">
               View glossary
             </button>
           </div>

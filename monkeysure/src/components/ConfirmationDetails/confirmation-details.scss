@@ -1,0 +1,18 @@
+@import "../../color";
+
+.confirmation-details {
+  .details-container {
+    border-bottom: thin solid #ccc;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+    .detail {
+      border-right: thin solid #ccc;
+      padding: 1rem 3rem;
+      flex-basis: 33.33%;
+      font-size: 0.9rem;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+}

@@ -31,7 +31,7 @@ const Guide = () => (
         </div>
       </div>
       <div className="flex justify-center">
-        <button className="btn border-primary">
+        <button className="btn border-secondary">
           View glossary
         </button>
       </div>

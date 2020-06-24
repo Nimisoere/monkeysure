@@ -4,9 +4,10 @@
 
 @import "tailwindcss/utilities";
 
-@import './color';
+@import "./color";
 
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
@@ -14,8 +15,9 @@ html, body {
 body {
   margin: 0;
   color: $base-color-slate;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 0.8rem;
+  font-weight: 300;
 }
 
 #root {
@@ -29,26 +31,32 @@ main {
   flex-grow: 1;
 }
 
-header, main, footer {
+header,
+main,
+footer {
   flex-shrink: 0;
 }
 
 .btn {
   border-radius: 15rem;
-  box-shadow: 0 0 3px #CCC;
+  box-shadow: 0 0 3px #ccc;
   padding: 0.6rem;
   min-width: 8rem;
   color: $base-color-slate;
+  img {
+    height: 1rem;
+    vertical-align: middle;
+    display: inline-flex;
+  }
 }
 
 .border-primary {
   border: thin solid $base-color-green;
 }
 
-.border-primary {
+.border-secondary {
   border: thin solid $base-color-slate;
 }
-
 
 .bg-primary {
   background-color: $base-color-green;

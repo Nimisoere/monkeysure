@@ -1,0 +1,36 @@
+@import "../../color";
+
+.upsell {
+  .upsell-cards {
+    flex-basis: 25%;
+    padding: 1rem 0;
+    .upsell-card {
+      background-color: white;
+      box-shadow: 0 0 3px #ccc;
+      max-width: 18rem;
+      border-radius: 1rem;
+      position: relative;
+      .image {
+        background-color: #eee;
+        border-radius: 1rem 1rem 0 0;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        img {
+          height: 100%;
+        }
+      }
+      .details {
+        padding: 1rem;
+        .title {
+          font-weight: 400;
+          font-size: 1.2rem;
+        }
+        .button {
+          background-color: $base-color-green;
+        }
+      }
+    }
+  }
+}
