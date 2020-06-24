@@ -1,0 +1,48 @@
+@import '../../../color';
+
+.listing-card {
+  background-color: white;
+  box-shadow: 0 0 3px #CCC;
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  &.selected {
+    border: $base-color-green thick solid;
+    .card-tag {
+      background-color: $base-color-green;
+      color: $base-color-slate;
+    }
+  }
+  .card-tag {
+    background-color: $base-color-slate;
+    position: absolute;
+    color: white;
+    right: 0;
+    border-radius: 1rem 0 0 1rem;
+    padding: 0.3rem 1rem;
+    top: 1.5rem;
+  }
+  .card-section {
+    padding: 1rem;
+    &.price-section {
+      background-color: #EEE;
+    }
+    .card-logo {
+      height: 2rem;
+    }
+    .company-name {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+    .card-link {
+      color: $base-color-green;
+      font-size: 0.9rem;
+      text-decoration: underline;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.5rem;
+    }
+  }
+}

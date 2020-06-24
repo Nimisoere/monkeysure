@@ -1,0 +1,82 @@
+import logo1 from './assets/images/wapic.png';
+import logo2 from './assets/images/axa-mansard.png';
+import logo3 from './assets/images/CHI-logo.png';
+import logo4 from './assets/images/oldMutual.png';
+
+export const listings = [
+  {
+    id: 1,
+    logo: logo1,
+    selected: true,
+    tag: 'Best offer',
+    company: 'Wapic Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+  {
+    id: 2,
+    logo: logo2,
+    company: 'Axa Mansard Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+  {
+    id: 3,
+    logo: logo3,
+    company: 'Consolidated Hallmark Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+  {
+    id: 4,
+    logo: logo4,
+    company: 'Old Mutual Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+  {
+    id: 5,
+    logo: logo1,
+    tag: 'Best offer',
+    company: 'Wapic Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+  {    
+    id: 6,
+    logo: logo2,
+    company: 'Axa Mansard Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+  {
+    id: 7,
+    logo: logo3,
+    company: 'Consolidated Hallmark Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+  {
+    id: 8,
+    logo: logo4,
+    company: 'Old Mutual Insurance',
+    details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    more_details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel sollicitudin lacus. Nunc ligula felis, ullamcorper id tortor ac, consequat laoreet nunc. Pellentesque at neque sed justo congue sagittis non sed erat',
+    premium: 'N00,000',
+    cover_value: 'N00,000',
+  },
+]
