@@ -23,7 +23,7 @@ const CompareQuotes = () => (
         {
           listings.map(listing => (
             <div className="listing-wrapper">
-              <ListingCardGrid btnConfig={{ text: listing.selected ? 'Remove' : 'Compare', action: () => null }} key={listing.id} listing={listing} />
+              <ListingCardGrid type="compare" btnConfig={{ text: listing.selected ? 'Remove' : 'Compare', action: () => null }} key={listing.id} listing={listing} />
             </div>
           ))
         }

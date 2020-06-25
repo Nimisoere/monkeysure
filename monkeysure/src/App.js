@@ -12,6 +12,7 @@ import TravelInsurance from './pages/Insurance/Travel';
 import FuneralInsurance from './pages/Insurance/Funeral';
 import Confirmation from './pages/Confirmation';
 import CompareQuotes from './pages/CompareQuotes';
+import ListingGrid from './pages/ListingGrid';
 
 function App() {
   return (
@@ -46,6 +47,12 @@ function App() {
           </Route>
           <Route exact path="/compare">
             <Layout component={<Confirmation />} />
+          </Route>
+          <Route exact path="/listing-1">
+            <Layout component={<ListingGrid type="grid" />} />
+          </Route>
+          <Route exact path="/listing-2">
+            <Layout component={<ListingGrid type="list" />} />
           </Route>
         </Switch>
       </BrowserRouter>

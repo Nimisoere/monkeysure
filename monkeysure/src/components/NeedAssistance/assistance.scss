@@ -1,0 +1,13 @@
+.assistance {
+  background-color: #efefef;
+  min-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  button {
+    box-shadow: none;
+  }
+}

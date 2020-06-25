@@ -2,9 +2,9 @@ import React from 'react';
 import './listing-card.scss';
 import { Link } from 'react-router-dom';
 
-const ListingCardGrid = ({ listing, btnConfig }) => {
+const ListingCardGrid = ({ listing, btnConfig, type }) => {
   return (
-    <div className={`listing-card grid ${listing.selected ? 'selected' : ''}`}>
+    <div className={`listing-card grid ${listing.selected && type === 'compare' ? 'selected' : ''}`}>
       {
         listing.tag && <div className="card-tag">{listing?.tag}</div>
       }
@@ -19,11 +19,11 @@ const ListingCardGrid = ({ listing, btnConfig }) => {
       <div className="card-section">
         <p>{listing.details.slice(0, 150)}</p>
         <p>
-          <Link className="card-link">See details</Link>
+          <Link to="/" className="card-link">See details</Link>
         </p>
       </div>
       <div className="card-section">
-        <button onClick={btnConfig.action} className={`btn ${listing.selected ? 'border-secondary' : 'bg-primary' } w-full`}>{btnConfig.text}</button>
+        <button onClick={btnConfig.action} className={`btn ${listing.selected && type==='compare' ? 'border-secondary' : 'bg-primary' } w-full`}>{btnConfig.text}</button>
       </div>
     </div>
   );

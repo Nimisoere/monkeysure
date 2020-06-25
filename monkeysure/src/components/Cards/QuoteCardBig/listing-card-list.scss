@@ -1,0 +1,68 @@
+@import "../../../color";
+
+.listing-card-list {
+  background-color: white;
+  box-shadow: 0 0 3px #ccc;
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  &.selected {
+    border: $base-color-green thick solid;
+    .card-tag {
+      background-color: $base-color-green;
+      color: $base-color-slate;
+    }
+  }
+  .card-tag {
+    background-color: $base-color-slate;
+    position: absolute;
+    color: white;
+    right: 0;
+    border-radius: 1rem 0 0 1rem;
+    padding: 0.3rem 1rem;
+    top: 1.5rem;
+  }
+  .card-section {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    &:first-child {
+      border-right: #eee thin solid;
+    }
+    &.price-section {
+      background-color: #eee;
+      border-radius:  0 1rem 1rem 0;
+      .price-hr {
+        border-color: #CCC;
+        padding-bottom: 0.5rem;
+        margin: 0.5rem 0;
+        width: 80%;
+      }
+      .price {
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      .price-cover {
+        font-weight: bold;
+        font-size: 1rem;
+      }
+    }
+    .card-logo {
+      height: 1.5rem;
+    }
+    .company-name {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+    .card-link {
+      color: $base-color-green;
+      font-size: 0.9rem;
+      text-decoration: underline;
+    }
+
+  }
+}

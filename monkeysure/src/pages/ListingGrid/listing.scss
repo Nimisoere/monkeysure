@@ -1,0 +1,18 @@
+.listing {
+  .listing-wrapper {
+    flex-basis: 33.333%;
+  }
+  .listing-wrapper-full {
+    flex-basis: 100%;
+  }
+  .disclaimer {
+    position: relative;
+    padding-left: 0.5rem;
+    &::before {
+      position: absolute;
+      top: 0;
+      left: 0rem;
+      content: "*";
+    }
+  }
+}
