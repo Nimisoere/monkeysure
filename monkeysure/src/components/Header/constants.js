@@ -1,7 +1,7 @@
 export const menu = [
   {
-    text: 'Insurance',
-    link: '/insurance'
+    text: 'Home',
+    link: '/home-insurance'
   },
   {
     text: 'Life',
@@ -12,8 +12,8 @@ export const menu = [
     link: '/health'
   },
   {
-    text: 'Money',
-    link: '/money'
+    text: 'Funeral',
+    link: '/funeral'
   },
   {
     text: 'Travel',

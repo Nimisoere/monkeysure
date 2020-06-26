@@ -17,7 +17,7 @@ export const menu = [
     btnText: 'Compare Warranty',
     icon: phoneIcon,
     description: 'Losing a device shouldnt cost more than it should, find the right cover',
-    link: '/cars'  },
+    link: '/phone'  },
   {
     text: 'Auto Tracking',
     btnText: 'Compare Warranty',
@@ -29,14 +29,14 @@ export const menu = [
     btnText: 'Compare Warranty',
     icon: companyIcon,
     description: 'Compare cost of insuring your business and workn assets',
-    link: '/business'  
+    link: '/'  
   },
   {
     text: 'Phone Insurance',
     btnText: 'Compare Warranty',
     icon: phoneIcon,
     description: 'Losing a device shouldnt cost more than it should, find the right cover',
-    link: '/cars'  },
+    link: '/phone'  },
   {
     text: 'Auto Tracking',
     btnText: 'Compare Warranty',
@@ -48,6 +48,6 @@ export const menu = [
     btnText: 'Compare Warranty',
     icon: companyIcon,
     description: 'Compare cost of insuring your business and workn assets',
-    link: '/business'  
+    link: '/'  
   }
 ]

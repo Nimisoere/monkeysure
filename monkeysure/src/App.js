@@ -45,14 +45,17 @@ function App() {
           <Route exact path="/compare-select">
             <Layout component={<CompareQuotes />} />
           </Route>
-          <Route exact path="/compare">
-            <Layout component={<Confirmation />} />
-          </Route>
           <Route exact path="/listing-1">
             <Layout component={<ListingGrid type="grid" />} />
           </Route>
           <Route exact path="/listing-2">
             <Layout component={<ListingGrid type="list" />} />
+          </Route>
+          <Route exact path="/pax-form">
+            <Layout component={<Confirmation />} />
+          </Route>
+          <Route exact path="/compare">
+            <Layout component={<Confirmation />} />
           </Route>
         </Switch>
       </BrowserRouter>

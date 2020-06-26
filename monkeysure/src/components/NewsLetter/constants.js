@@ -1,23 +1,23 @@
 export const menu = [
   {
     text: 'fa-facebook',
-    link: '/insurance'
+    link: '/'
   },
   {
     text: 'fa-twitter',
-    link: '/life'
+    link: '/'
   },
   {
     text: 'fa-instagram',
-    link: '/health'
+    link: '/'
   },
   {
     text: 'fa-linkedin',
-    link: '/money'
+    link: '/'
   },
   {
     text: 'fa-youtube',
-    link: '/travel'
+    link: '/'
   }
 ]
 
