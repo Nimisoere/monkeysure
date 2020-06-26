@@ -8,8 +8,8 @@ export const menu = [
     link: '/life'
   },
   {
-    text: 'Health',
-    link: '/health'
+    text: 'Phone',
+    link: '/phone'
   },
   {
     text: 'Funeral',
