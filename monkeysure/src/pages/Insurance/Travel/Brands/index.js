@@ -3,9 +3,9 @@ import './brands.scss';
 
 import logo1 from '../../../../assets/images/wapic.png';
 import logo2 from '../../../../assets/images/axa-mansard.png';
-import logo3 from '../../../../assets/images/interswitchngnew.png';
+import logo3 from '../../../../assets/images/lead-way.png';
 import logo4 from '../../../../assets/images/oldMutual.png';
-import logo5 from '../../../../assets/images/wakanow.png';
+import logo5 from '../../../../assets/images/CHI-logo.png';
 
 const Brands = () => (
   <section className="travel-brands flex">

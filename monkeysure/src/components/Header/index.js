@@ -17,7 +17,7 @@ const Header = () => (
         <div className="flex justify-between">
           {
             menu.map((item, index) => (
-              <Link to={item.link} className="mr-6" key={index}>{item.text}</Link>
+              <Link to={item.link} className="mr-6 text-base" key={index}>{item.text}</Link>
             ))
           }
         </div>

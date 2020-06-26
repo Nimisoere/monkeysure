@@ -1,5 +1,21 @@
 export const menu = [
   {
+    text: 'Cars',
+    link: '/cars'
+  },
+  {
+    text: 'Health',
+    link: '/health'
+  },
+  {
+    text: 'Phone',
+    link: '/phone'
+  },
+  {
+    text: 'Travel',
+    link: '/travel'
+  },
+  {
     text: 'Home',
     link: '/home-insurance'
   },
@@ -8,19 +24,7 @@ export const menu = [
     link: '/life'
   },
   {
-    text: 'Phone',
-    link: '/phone'
-  },
-  {
     text: 'Funeral',
     link: '/funeral'
   },
-  {
-    text: 'Travel',
-    link: '/travel'
-  },
-  {
-    text: 'Cars',
-    link: '/cars'
-  }
 ]
