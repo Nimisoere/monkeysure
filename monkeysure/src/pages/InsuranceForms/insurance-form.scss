@@ -1,0 +1,49 @@
+@import "../../color";
+
+.insurance-form {
+  .form-grid {
+    padding-right: 2rem;
+  }
+  .check-box {
+    transform: scale(2);
+    padding: 10px;
+  }
+  .proceed-btn {
+    padding: 1rem 6rem;
+  }
+  .home_insurance-radios {
+    background-color: #eee;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+  }
+  .radio-wrapper {
+    display: flex;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    .form-radio {
+      flex-basis: 33.333%;
+      margin-bottom: 1rem;
+      .radio-control {
+        margin: 1rem 0;
+        input[type="radio"] {
+          display: none;
+        }
+        input[type="radio"] + label {
+          border: thin solid $base-color-slate;
+          border-radius: 1rem;
+          margin-right: 2rem;
+          padding: 0.5rem 1rem;
+          font-weight: 300;
+          background-color: #fff;
+        }
+        input[type="radio"]:checked + label {
+          font-weight: bold;
+        }
+        input[type="radio"]:focus + label {
+          border: 1px dotted #000;
+        }
+      }
+    }
+  }
+}

@@ -14,6 +14,7 @@ import Confirmation from './pages/Confirmation';
 import CompareQuotes from './pages/CompareQuotes';
 import ListingGrid from './pages/ListingGrid';
 import CompareQuotesTable from './pages/CompareQuotesTable';
+import InsuranceForm from './pages/InsuranceForms';
 
 function App() {
   return (
@@ -52,8 +53,8 @@ function App() {
           <Route exact path="/listing-2">
             <Layout component={<ListingGrid type="list" />} />
           </Route>
-          <Route exact path="/pax-form">
-            <Layout component={<Confirmation />} />
+          <Route exact path="/insurance-form">
+            <Layout component={<InsuranceForm />} />
           </Route>
           <Route exact path="/compare">
             <Layout component={<CompareQuotesTable />} />

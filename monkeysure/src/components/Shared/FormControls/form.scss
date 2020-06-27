@@ -1,0 +1,46 @@
+@import "../../../color";
+
+.form-control-wrapper {
+  margin-bottom: 1.5rem;
+  .form-control-label {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    .label {
+      margin-bottom: 1rem;
+    }
+    .form-control {
+      width: 100%;
+      border-bottom: $base-color-slate thin solid;
+      font-size: 1rem;
+      font-weight: 300;
+      &::placeholder {
+        color: $base-color-slate;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .form-control-select {
+      background-image: url("../../../assets/images/chevron-down.png");
+      background-position: top right;
+      background-repeat: no-repeat;
+      background-size: 1.5rem;
+      width: 100%;
+      select {
+        -webkit-appearance: none;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        background: transparent;
+      }
+    }
+    .form-control-money {
+      display: flex;
+      justify-content: space-between;
+      .currency {
+        border-bottom: $base-color-slate thin solid;
+        font-size: 1rem;
+        font-weight: 300;
+      }
+    }
+  }
+}
