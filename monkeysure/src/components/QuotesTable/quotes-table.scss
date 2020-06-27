@@ -1,0 +1,66 @@
+.quotes-table {
+  width: 100%;
+  .quotes-table-header {
+    border: #eee thin solid;
+    width: 100%;
+    display: flex;
+    &.subheader {
+      background: #fcfcfc;
+    }
+    .quotes-table-column {
+      border-right: #eee thin solid;
+      flex-basis: 25%; //Change based on number of columns
+      padding: 0.5rem 1rem;
+      align-items: center;
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+  .quotes-table-wrapper {
+    border: #eee thin solid;
+    height: 15rem;
+    background: white;
+    overflow-y: scroll;
+    .quotes-table-row {
+      width: 100%;
+      border-bottom: #eee thin solid;
+      display: flex;
+      &:last-child {
+        border-bottom: none;
+      }
+      .quotes-table-column {
+        border-right: #eee thin solid;
+        flex-basis: 25%; //Change based on number of columns
+        padding: 0.5rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .grey-icon {
+          filter: grayscale(100%);
+        }
+        &:first-child {
+         justify-content: start;
+        }
+        &:last-child {
+          border: none;
+        }
+      }
+    }
+  }
+  .quotes-table-footer {
+    border: #eee thin solid;
+    width: 100%;
+    display: flex;
+    .quotes-table-column {
+      border-right: #eee thin solid;
+      flex-basis: 25%; //Change based on number of columns
+      padding: 1.5rem 1rem;
+      align-items: center;
+      background: #fcfcfc;
+      &:first-child {
+        background: white;
+      }
+    }
+  }
+}

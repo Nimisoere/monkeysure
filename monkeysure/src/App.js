@@ -13,6 +13,7 @@ import FuneralInsurance from './pages/Insurance/Funeral';
 import Confirmation from './pages/Confirmation';
 import CompareQuotes from './pages/CompareQuotes';
 import ListingGrid from './pages/ListingGrid';
+import CompareQuotesTable from './pages/CompareQuotesTable';
 
 function App() {
   return (
@@ -55,7 +56,7 @@ function App() {
             <Layout component={<Confirmation />} />
           </Route>
           <Route exact path="/compare">
-            <Layout component={<Confirmation />} />
+            <Layout component={<CompareQuotesTable />} />
           </Route>
         </Switch>
       </BrowserRouter>
