@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.scss'
-const FormGroup = ({ actionText, inputs }) => (
+const FormGroup = ({ actionText, inputs, action = () => null }) => (
   <div className="form-group-wrapper ">
     {
       inputs?.map(input => input.type === 'select' ? (
@@ -12,7 +12,7 @@ const FormGroup = ({ actionText, inputs }) => (
         )
       )
     }
-    <button className="form-group-btn">{actionText}</button>
+    <button className="form-group-btn" onClick={action} >{actionText}</button>
   </div>
 )
 

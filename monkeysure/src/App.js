@@ -71,7 +71,7 @@ function App() {
           <Route exact path="/confirmation">
             <Layout component={<Confirmation />} />
           </Route>
-          <Route exact path="/compare-select">
+          <Route exact path="/:category/compare-quotes">
             <Layout component={<CompareQuotes />} />
           </Route>
           <Route exact path="/listing-1">
@@ -83,10 +83,13 @@ function App() {
           <Route exact path="/listing-2">
             <Layout component={<ListingGrid type="list" />} />
           </Route>
-          <Route exact path="/insurance-form">
+          <Route exact path="/:category/insurance-form">
             <Layout component={<InsuranceForm />} />
           </Route>
           <Route exact path="/compare">
+            <Layout component={<CompareQuotesTable />} />
+          </Route>
+          <Route exact path="/:category/compare">
             <Layout component={<CompareQuotesTable />} />
           </Route>
         </Switch>
