@@ -19,7 +19,7 @@ const MainBanner = () => (
           <Link to="/">
             <span className="phone-btn mr-6"><img width="20px" src={phoneIcon} alt="phone" /></span>
           </Link>
-          <Link to="/">
+          <Link to="/cars">
             <button className="btn bg-primary">Get a Quote</button>
           </Link>
         </div>

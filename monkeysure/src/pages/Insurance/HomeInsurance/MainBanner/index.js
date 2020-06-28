@@ -2,13 +2,24 @@ import React from 'react';
 import './home-insurance.scss';
 import homeBackground from '../../../../assets/images/home-insurance.png';
 
-const Banner = () => (
+const Banner = ({ compare }) => (
   <section className="home-banner flex">
     <div className="container mx-auto py-12 flex items-center justify-between">
       <div className=" self-start">
         <div className="banner-text">
-          <p className="font-light text-5xl color-primary">Home Insurance</p>
-          <p className="font-light text-5xl">in simple steps</p>
+          {
+            compare ? (
+              <>
+                <p className="font-light text-5xl color-primary">Compare home insurance quotes</p>
+                <p className="font-light text-base">You can add up to 3 quotes side by side</p>
+              </>
+            ) : (
+                <>
+                  <p className="font-light text-5xl color-primary">Home Insurance</p>
+                  <p className="font-light text-5xl">in simple steps</p>
+                </>
+              )
+          }
           <div className="mt-6">
             <h4 className="mb-2 text-lg font-light">Click below for Home Insurance Quotes</h4>
             <button className="btn bg-primary banner-btn">Get Quote</button>

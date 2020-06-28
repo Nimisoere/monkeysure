@@ -5,12 +5,16 @@ import Steps from './FuneralSteps';
 import Guide from './Guide';
 
 
-const FuneralInsurance = () => (
+const FuneralInsurance = ({ compare }) => (
   <div className="funeral-insurance">
-   <FuneralBanner />
-   <Brands />
-   <Steps />
-   <Guide />
+    <FuneralBanner compare={compare} />
+    {
+      !compare && <>
+        <Brands />
+        <Steps />
+        <Guide />
+      </>
+    }
   </div>
 );
 

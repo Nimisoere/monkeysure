@@ -5,12 +5,16 @@ import Steps from './Steps';
 import Guide from './Guide';
 
 
-const PhoneInsurance = () => (
+const PhoneInsurance = ({ compare }) => (
   <div className="phone-insurance">
-   <Banner />
-   <Brands />
-   <Steps />
-   <Guide />
+    <Banner compare={compare} />
+    {
+      !compare && <>
+        <Brands />
+        <Steps />
+        <Guide />
+      </>
+    }
   </div>
 );
 

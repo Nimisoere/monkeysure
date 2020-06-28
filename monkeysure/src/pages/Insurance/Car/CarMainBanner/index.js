@@ -5,13 +5,24 @@ import { inputs } from './constants';
 import carBackground from '../../../../assets/images/mercedes.png';
 import FormGroup from '../../../../components/Shared/FormControls/Formgroup/FormGroup';
 
-const CarBanner = () => (
+const CarBanner = ({ compare }) => (
   <section className="car-banner flex">
     <div className="container mx-auto py-20 flex items-center justify-between">
       <div className=" self-start">
         <div className="banner-text">
-          <p className="font-light text-5xl color-primary">Car insurance quotes</p>
-          <p className="font-light text-5xl">in 2 simple steps</p>
+          {
+            compare ? (
+              <>
+                <p className="font-light text-5xl color-primary">Compare car quotes</p>
+                <p className="font-light text-base">You can add up to 3 quotes side by side</p>
+              </>
+            ) : (
+                <>
+                  <p className="font-light text-5xl color-primary">Car insurance quotes</p>
+                  <p className="font-light text-5xl">in 2 simple steps</p>
+                </>
+              )
+          }
         </div>
       </div>
       <div className="flex justify-end items-center">
