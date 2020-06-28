@@ -8,13 +8,18 @@
     height: 210px;
   }
   .article-slider-arrow-prev {
-    bottom: -15%;
+    bottom: -28%;
     left: 40%;
+    z-index: 2;
     top: initial;
   }
   .article-slider-arrow-next {
-    bottom: -15%;
+    bottom: -28%;
     right: 40%;
+    z-index: 2;
     top: initial;
+  }
+  .slick-dots {
+    bottom: -50px;
   }
 }

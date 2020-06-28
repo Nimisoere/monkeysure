@@ -1,26 +1,38 @@
 export const menu = [
   {
-    text: 'Promp Service',
-    description: 'Warrant covers mechanical and electrical components of car in the event of a failure',
+    text: 'Very easy to use',
+    description: 'No prior knowlege was needed to efficiently use service.I strongly recomend.',
+    owner: 'Tochukwu Madu',
+    location: 'Lagos'
   },
   {
-    text: 'Excellent Service',
-    description: 'Losing a device shouldnt cost more than it should, find the right cover',
+    text: 'Prompt service',
+    description: 'Response is super quick and accurate with vendors, I’ll definitely use again.',
+    owner: 'Tola Tumbia',
+    location: 'Ibadan'
   },
   {
-    text: 'Promp Service',
-    description: 'Warrant covers mechanical and electrical components of car in the event of a failure',
+    text: 'Great customer service',
+    description: 'Polite staff and excellent customer service. Very quick resolve to challenge.',
+    owner: 'Binwai Pridaa',
+    location: 'Abuja'
   },
   {
-    text: 'Excellent Service',
-    description: 'Losing a device shouldnt cost more than it should, find the right cover',
+    text: 'Excellent service',
+    description: 'Getting the right cover for my car was easy and lots of great insurers to select from.',
+    owner: 'Kenneth Nwanganga',
+    location: 'Lagos'
   },
   {
-    text: 'Promp Service',
-    description: 'Warrant covers mechanical and electrical components of car in the event of a failure',
+    text: 'Very easy to use',
+    description: 'No prior knowlege was needed to efficiently use service.I strongly recomend.',
+    owner: 'Tochukwu Madu',
+    location: 'Lagos'
   },
   {
-    text: 'Excellent Service',
-    description: 'Losing a device shouldnt cost more than it should, find the right cover',
+    text: 'Prompt service',
+    description: 'Response is super quick and accurate with vendors, I’ll definitely use again.',
+    owner: 'Tola Tumbia',
+    location: 'Ibadan'
   },
 ]

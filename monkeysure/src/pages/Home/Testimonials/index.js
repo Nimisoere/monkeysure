@@ -26,9 +26,9 @@ const Testimonials = () => (
                   <p>{item.description}</p>
                   <hr className="w-full" />
                   <div className="flex mt-2 w-full">
-                    <img className="rounded-full w-8 h-8 mr-2" src="https://api.adorable.io/avatars/285/abott@adorable.pngCopy to Clipboard" alt="avatar" />
+                    <img className="rounded-full w-8 h-8 mr-2" src={`https://i.pravatar.cc/300?img=${index+30}`} alt="avatar" />
                     <div>
-                      <h5 className="font-medium">Kenneth Yanga</h5>
+                      <h5 className="font-medium">{item.owner}</h5>
                       <p className="italic"> Lagos</p>
                     </div>
                   </div>

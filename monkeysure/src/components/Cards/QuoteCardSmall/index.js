@@ -1,8 +1,10 @@
 import React from 'react';
 import './listing-card.scss';
 import { Link } from 'react-router-dom';
+import { compareAttributes } from '../../../listings';
 
 const ListingCardGrid = ({ listing, btnConfig, type }) => {
+  const attributes = compareAttributes.filter(attr => listing.attributes.includes(attr.key));
   return (
     <div className={`listing-card grid ${listing.selected && type === 'compare' ? 'selected' : ''}`}>
       {
@@ -17,13 +19,13 @@ const ListingCardGrid = ({ listing, btnConfig, type }) => {
         <h3 className="price">{listing.premium}</h3>
       </div>
       <div className="card-section">
-        <p>{listing.details.slice(0, 150)}</p>
+        <ul>{attributes.map(attr => <li>- {attr.label}</li>).slice(0, 3)}</ul>
         <p>
-          <Link to="/" className="card-link">See details</Link>
+          <Link to="/" className="card-link">More Informtion</Link>
         </p>
       </div>
       <div className="card-section">
-        <button onClick={btnConfig.action} className={`btn ${listing.selected && type==='compare' ? 'border-secondary' : 'bg-primary' } w-full`}>{btnConfig.text}</button>
+        <button onClick={btnConfig.action} className={`btn ${listing.selected && type === 'compare' ? 'border-secondary' : 'bg-primary'} w-full`}>{btnConfig.text}</button>
       </div>
     </div>
   );

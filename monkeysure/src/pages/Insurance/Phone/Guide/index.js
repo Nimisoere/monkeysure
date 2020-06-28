@@ -12,11 +12,11 @@ const Guide = () => (
         <div className="guide-row">
           <div className="guide-div">
             <h4 className="text-lg font-normal">What is Device Insurace</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <p className="font-light">Cellphone Insurance covers the policyholder in the event of theft, loss or damage of their cellphone. In any of these events, the cellphone will be replaced with a similar model, if not the same one. Depending on the insurance company, different policies offer different benefits and exclusions. It’s therefore important to ask all the relevant questions before signing up for Cellphone Insurance.</p>
           </div>
           <div className="guide-div">
             <h4 className="text-lg font-normal">How to claim insurace</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <p className="font-light">If your cellphone has been stolen or lost and you no longer have possession of it, the claim normally has to be preceded by blacklisting the phone with the relevant service provider. An ITC number will be issued to you to prove that it has been blacklisted, which you then need to provide to your insurance company as part of the claim. You may also need to report this to the police and they will then issue you with a case number.</p>
           </div>
         </div>
       </div>

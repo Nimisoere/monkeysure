@@ -12,14 +12,14 @@ const Guide = () => (
         <div className="guide-row">
           <div className="guide-div">
             <h4 className="text-lg font-normal">Funeral cover FAQs</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <p className="font-light">We've put together a comprehensive list of FAQ's to help you find out more about Funeral Cover so that you can make more of an informed decision on finding the right cover to suit you and your family’s specific need</p>
             <button className="mt-4 btn border-secondary">
               View FAQs
             </button>
           </div>
           <div className="guide-div">
             <h4 className="text-lg font-normal">Funeral cover glossary</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <p className="font-light">Read more about Funeral Insurance and some of the day-to-day terms used within the Funeral Insurance industry to help you on your way to finding the right Funeral Cover.</p>
             <button className="mt-4 btn border-secondary">
               View glossary
             </button>

@@ -1,17 +1,17 @@
 export const inputs = [
   {
-    name: 'email',
-    type: 'email',
+    name: 'make',
+    type: 'select',
     placeholder: 'Make',
   },
   {
-    name: 'email',
-    type: 'email',
+    name: 'make',
+    type: 'select',
     placeholder: 'Model',
   },
   {
-    name: 'email',
-    type: 'email',
+    name: 'make',
+    type: 'select',
     placeholder: 'Year',
   },
   {

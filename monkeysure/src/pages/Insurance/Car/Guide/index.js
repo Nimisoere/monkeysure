@@ -11,22 +11,25 @@ const Guide = () => (
       <div>
         <div className="guide-row">
           <div className="guide-div">
-            <h4 className="text-lg font-normal">What is Comprehensive Car Insurace</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <h4 className="text-lg font-normal">What is Comprehensive Car Insurace?</h4>
+            <p className="mb-2">Comprehensive Car Insurance provides cover for just about any form of financial loss related to your vehicle.</p>
+            <p>Provides cover for damage caused to another person and their property if you are responsible for an accident.</p>
           </div>
           <div className="guide-div">
-            <h4 className="text-lg font-normal">What is Comprehensive Car Insurace</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <h4 className="text-lg font-normal">What is Third Party Car Insurace?</h4>
+            <p className="mb-2">Third party fire and theft Car Insurance provides cover for damage caused to another person and their property if you are responsible for an accident.</p>
+            <p>Covers you if your car is stolen or damaged in the event of a hijacking, theft or fir</p>
           </div>
         </div>
         <div className="guide-row">
           <div className="guide-div">
-            <h4 className="text-lg font-normal">What is Comprehensive Car Insurace</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <h4 className="text-lg font-normal">What is third party only cover?</h4>
+            <p className="mb-2">What is third party only cover?Third party only Car Insurance Covers the damage caused to another person and their property if you are responsible for an accident.</p>
+            <p>Does not provide cover if your vehicle is damaged or stolen.</p>
           </div>
           <div className="guide-div">
-            <h4 className="text-lg font-normal">What is Comprehensive Car Insurace</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vulputate cursus sapien, quis facilisis justo ullamcorper eget. Pellentesque nunc diam, tempor sed pellentesque at, placerat quis dolor. Duis pulvinar sed sapien at semper. Etiam cursus egestas tortor. Cras dignissim, felis eget finibus congue, lectus massa lobortis orci, at rutrum tortor massa nec mauris.k</p>
+            <h4 className="text-lg font-normal">How do I get a quote?</h4>
+            <p className="font-light">What is third party only cover?Third party only Car Insurance Covers the damage caused to another person and their property if you are responsible for an accident. Does not provide cover if your vehicle is damaged or stolen.</p>
           </div>
         </div>
       </div>

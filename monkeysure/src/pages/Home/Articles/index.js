@@ -20,9 +20,9 @@ const Articles = () => (
           }}>
           {
             menu.map((item, index) => (
-              <div className="mr-8 h-full w-48" key={index}>
+              <div className="mr-8 h-full w-48 p-1" key={index}>
                 <img src={item.image} className="rounded" alt="" />
-                <h4 className="text-xl font-normal">{item.text}</h4>
+                <h4 className="text-lg mt-4 font-normal">{item.text}</h4>
                 <p>{item.description}</p>
               </div>
             ))
