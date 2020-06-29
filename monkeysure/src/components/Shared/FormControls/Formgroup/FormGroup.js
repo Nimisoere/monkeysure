@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss'
 const FormGroup = ({ actionText, inputs, action = () => null }) => (
-  <div className="form-group-wrapper ">
+  <div className="form-group-wrapper">
     {
       inputs?.map((input, index) => input.type === 'select' ? (
           <select key={index} defaultValue="" name={input.name} className={`${input.classes} form-group-input`}>

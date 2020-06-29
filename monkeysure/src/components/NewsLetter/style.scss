@@ -9,6 +9,14 @@
   min-width: 15rem;
 }
 
+/* Medium (md) */
+@media (max-width: 768px) { 
+  .newsletter-email-input {
+    min-width: 0;
+  }
+}
+
+
 .social-icons {
   background-color: $base-color-green;
   color: $base-color-slate;
