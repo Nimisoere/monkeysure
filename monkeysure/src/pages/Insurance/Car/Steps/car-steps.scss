@@ -1,15 +1,29 @@
 @import "../../../../color";
 
 .steps {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   min-height: 20rem;
-  .steps-div{
+  .steps-div {
     text-align: center;
-    border-right: thin solid #CCC;
-    padding: 1rem 3rem;
-    flex-basis: 33.33%;
+    border-right: none;
+    border-bottom: thin solid #ccc;
+    padding: 1rem 0;
+    flex-basis: 100%;
     &:last-child {
       border: none;
+    }
+  }
+  /* Medium (md) */
+  @media (min-width: 640px) {
+    .steps-div {
+      text-align: center;
+      border-right: thin solid #ccc;
+      border-bottom: none;
+      padding: 1rem 3rem;
+      flex-basis: 33.33%;
+      &:last-child {
+        border: none;
+      }
     }
   }
 }

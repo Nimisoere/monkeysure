@@ -2,7 +2,7 @@ import React from 'react';
 import './steps.scss';
 
 const Steps = () => (
-  <section className="travel-steps flex">
+  <section className="home-steps flex">
     <div className="container thick-border mx-auto py-4">
       <div className="w-full text-center">
         <h4 className="text-xl font-normal">Why you should get Home Insurance</h4>

@@ -10,13 +10,15 @@ const Steps = () => (
         <h4 className="text-xl font-normal">Want to compare Car Insurance Quotes</h4>
         <p className="font-light">Use any of these 3 easy methods to get a Car Insurance Quote</p>
       </div>
-      <div className="w-full py-12 flex justify-center">
+      <div className="w-full py-12 sm:flex-no-wrap flex-wrap flex justify-center">
         <div className="steps-div">
           <div className="mb-10">
             <h4 className="text-lg font-normal">Leave your details</h4>
             <p className="font-light">and we'll call you back</p>
           </div>
-          <FormGroup inputs={inputs} actionText="Call me" />
+          <div>
+            <FormGroup inputs={inputs} actionText="Call me" />
+          </div>
         </div>
         <div className="steps-div">
           <div className="mb-10">

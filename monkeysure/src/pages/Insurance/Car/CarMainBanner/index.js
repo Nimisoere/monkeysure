@@ -9,7 +9,7 @@ const CarBanner = ({ compare }) => {
   const history = useHistory();
 
   return (
-    <section className="car-banner flex">
+    <section className="car-banner flex flex-wrap">
       <div className="container mx-auto py-20 flex items-center justify-between">
         <div className=" self-start">
           <div className="banner-text">
@@ -28,13 +28,13 @@ const CarBanner = ({ compare }) => {
             }
           </div>
         </div>
-        <div className="flex justify-end items-center animate__animated animate__backInRight">
+        <div className="sm:flex hidden justify-end items-center animate__animated animate__backInRight">
           <img src={carBackground} className="h-48" alt="car" />
         </div>
       </div>
       <div className="car-widget animate__animated animate__slideInUp">
         <h4 className="mb-4 text-lg font-light">Search below for Auto Insurance Quote</h4>
-        <FormGroup inputs={inputs} actionText="Search" action={() => history.push(compare ? '/cars/compare-quotes' : '/cars/insurance-form')} />
+        <FormGroup className="widget-form" inputs={inputs} actionText="Search" action={() => history.push(compare ? '/cars/compare-quotes' : '/cars/insurance-form')} />
       </div>
     </section>
   )
