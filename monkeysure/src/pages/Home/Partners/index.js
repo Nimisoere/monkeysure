@@ -6,6 +6,14 @@ import logo2 from '../../../assets/images/axa-mansard.png';
 import logo3 from '../../../assets/images/lead-way.png';
 import logo4 from '../../../assets/images/oldMutual.png';
 import logo5 from '../../../assets/images/CHI-logo.png';
+import logo6 from '../../../assets/images/custodian.png';
+import logo7 from '../../../assets/images/hygeia.svg';
+import logo8 from '../../../assets/images/royal-exchange.png';
+import logo9 from '../../../assets/images/AIICO_Logo.jpg';
+import logo10 from '../../../assets/images/cornerstone.jpeg';
+import logo11 from '../../../assets/images/reliance-hmo.svg';
+import logo12 from '../../../assets/images/fbnInsurance.jpeg';
+
 import Carousel from '../../../components/Shared/Carousel';
 
 const Partners = () => (
@@ -37,6 +45,27 @@ const Partners = () => (
             </div>
             <div className="partner-logo-wrapper">
               <img className="partner-logo  h-8" src={logo5} alt="logo" />
+            </div>
+            <div className="partner-logo-wrapper">
+              <img className="partner-logo h-8" src={logo6} alt="logo" />
+            </div>
+            <div className="partner-logo-wrapper">
+              <img className="partner-logo  h-8" src={logo7} alt="logo" />
+            </div>
+            <div className="partner-logo-wrapper">
+              <img className="partner-logo  h-8" src={logo8} alt="logo" />
+            </div>
+            <div className="partner-logo-wrapper">
+              <img className="partner-logo  h-8" src={logo9} alt="logo" />
+            </div>
+            <div className="partner-logo-wrapper">
+              <img className="partner-logo  h-8" src={logo10} alt="logo" />
+            </div>
+            <div className="partner-logo-wrapper">
+              <img className="partner-logo  h-8" src={logo11} alt="logo" />
+            </div>
+            <div className="partner-logo-wrapper">
+              <img className="partner-logo  h-8" src={logo12} alt="logo" />
             </div>
           </Carousel>
         </div>
