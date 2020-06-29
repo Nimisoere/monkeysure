@@ -1,6 +1,6 @@
 .listing {
   .listing-wrapper {
-    flex-basis: 33.333%;
+    flex-basis: 100%;
   }
   .listing-wrapper-full {
     flex-basis: 100%;
@@ -14,5 +14,25 @@
       left: 0rem;
       content: "*";
     }
+  }
+  /* Small (sm) */
+  @media (min-width: 640px) {
+    .listing-wrapper {
+      flex-basis: 100%;
+    }
+  }
+
+  /* Medium (md) */
+  @media (min-width: 768px) {
+    .listing-wrapper {
+      flex-basis: 50%;
+    }
+  }
+
+  /* Large (lg) */
+  @media (min-width: 1024px) {
+    .listing-wrapper {
+      flex-basis: 33.333%;
+    }  
   }
 }

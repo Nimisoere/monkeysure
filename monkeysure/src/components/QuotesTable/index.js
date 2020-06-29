@@ -15,9 +15,9 @@ const QuotesTable = () => {
           listings.map(listing => listing.selected && (
             <div key={listing.id} className="quotes-table-column">
               <img src={listing.logo} className="h-8" alt={listing.company} />
-              <p className="text-base font-light mb-4">{listing.company}</p>
-              <p>Total annual premium</p>
-              <p className="text-xl font-medium mb-4">{listing.premium}</p>
+              <p className="sm:text-base font-light mb-4">{listing.company}</p>
+              <p className="sm:block hidden">Total annual premium</p>
+              <p className="sm:text-xl text-base font-medium mb-4">{listing.premium}</p>
             </div>
           ))
         }
@@ -29,7 +29,7 @@ const QuotesTable = () => {
         {
           listings.map(listing => listing.selected && (
             <div key={listing.id} className="quotes-table-column">
-              <p className="text-xl font-medium">{listing.premium}</p>
+              <p className="sm:text-xl text-base font-medium">{listing.premium}</p>
             </div>
           ))
         }
@@ -60,7 +60,7 @@ const QuotesTable = () => {
         {
           listings.map(listing => listing.selected && (
             <div key={listing.id} className="quotes-table-column">
-              <button onClick={() => history.push(`/${category}/confirmation`)} className="btn bg-primary w-full">BUY NOW</button>
+              <button onClick={() => history.push(`/${category}/confirmation`)} className="buy-btn btn bg-primary sm:w-full">BUY <span className="sm:inline-block hidden">NOW</span></button>
             </div>
           ))
         }

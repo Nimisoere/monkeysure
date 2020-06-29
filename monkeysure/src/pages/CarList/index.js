@@ -14,8 +14,8 @@ const CarList = () => (
         <h4 className="font-normal text-lg">Car Information</h4>
         <p className="text-base">Please fill out the form to get accurate quotes</p>
       </div>
-      <div className="w-full mt-6 flex">
-        <div className="w-9/12 pr-6">
+      <div className="w-full mt-6 flex flex-wrap">
+        <div className="sm:w-9/12 mb-4 w-full sm:pr-6">
           <div className="car-item">
             <div className="w-3/12 car-icon">
               <img src={car} alt="" />
@@ -35,7 +35,7 @@ const CarList = () => (
           </div>
           <Link to="/cars/listing" className="btn proceed-btn bg-primary">Confirm</Link>
         </div>
-        <div className="w-3/12">
+        <div className="w-full sm:w-3/12">
           <CustomerCard customerDetails={{
             name: 'John Smith',
             email: 'johnsmith@mail.com',

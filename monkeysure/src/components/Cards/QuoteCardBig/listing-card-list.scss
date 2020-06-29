@@ -6,7 +6,6 @@
   border-radius: 1rem;
   position: relative;
   margin-bottom: 2rem;
-  margin-right: 2rem;
   display: flex;
   &.selected {
     border: $base-color-green thick solid;
@@ -35,7 +34,7 @@
     }
     &.price-section {
       background-color: #eee;
-      border-radius:  0 1rem 1rem 0;
+      border-radius:  1rem;
       .price-hr {
         border-color: #CCC;
         padding-bottom: 0.5rem;
@@ -49,6 +48,11 @@
       .price-cover {
         font-weight: bold;
         font-size: 1rem;
+      }
+    }
+    @media (min-width: 640px) {
+      &.price-section {
+        border-radius:  0 1rem 1rem 0;
       }
     }
     .card-logo {

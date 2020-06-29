@@ -69,16 +69,16 @@ const ListingGrid = () => {
           <h4 className="font-normal text-lg">We've found 8 insurance quotes for you</h4>
           <p className="text-base">Please select quotes</p>
         </div>
-        <div className="w-full flex">
-          <div className="w-9/12">
-            <div className="flex flex-wrap py-6 justify-start">
+        <div className="w-full flex flex-wrap">
+          <div className="sm:w-9/12 w-full mb-4">
+            <div className="flex flex-wrap py-6 justify-center sm:justify-start">
               {
                 listings.map(listing => type === 'grid' ? (
                   <div key={listing.id} className="listing-wrapper">
                     <ListingCardGrid btnConfig={{ text: 'BUY', action: () => history.push(`/${category}/confirmation`) }} key={listing.id} listing={listing} />
                   </div>
                 ) : (
-                    <div key={listing.id + "list"} className="listing-wrapper-full">
+                    <div key={listing.id + "list"} className="listing-wrapper-full sm:pr-8">
                       <ListingCardList btnConfig={{ text: 'BUY', action: () => history.push(`/${category}/confirmation`) }} key={listing.id} listing={listing} />
                     </div>
                   ))
@@ -90,7 +90,7 @@ const ListingGrid = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus elit sed tortor feugiat eleifend. Aliquam tincidunt tellus ac nunc condimentum, vitae accumsan purus dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus elit sed tortor feugiat eleifend. Aliquam tincidunt tellus ac nunc condimentum, vitae accumsan purus dignissim.
           </p>
           </div>
-          <div className="w-3/12">
+          <div className="sm:w-3/12 w-full">
             <CustomerCard category={category} customerDetails={{
               name: 'John Smith',
               email: 'johnsmith@mail.com',

@@ -10,6 +10,7 @@
     .quotes-table-column {
       border-right: #eee thin solid;
       flex-basis: 25%; //Change based on number of columns
+      min-width: 25%; //Change based on number of columns
       padding: 0.5rem 1rem;
       align-items: center;
       &:last-child {
@@ -32,10 +33,14 @@
       .quotes-table-column {
         border-right: #eee thin solid;
         flex-basis: 25%; //Change based on number of columns
+        min-width: 25%; //Change based on number of columns
         padding: 0.5rem 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
+        .buy-btn {
+          min-width: 0;
+        }
         .grey-icon {
           filter: grayscale(100%);
         }
@@ -55,9 +60,13 @@
     .quotes-table-column {
       border-right: #eee thin solid;
       flex-basis: 25%; //Change based on number of columns
+      min-width: 25%; //Change based on number of columns
       padding: 1.5rem 1rem;
       align-items: center;
       background: #fcfcfc;
+      .buy-btn {
+        min-width: 0;
+      }
       &:first-child {
         background: white;
       }

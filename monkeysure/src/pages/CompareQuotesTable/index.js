@@ -4,7 +4,7 @@ import './compare.scss';
 import QuotesTable from '../../components/QuotesTable';
 
 const CompareQuotesTable = () => (
-  <div className="compare">
+  <div className="compare-quotes">
     <div className="page-header">
       <div className="container mx-auto py-8 flex justify-between">
         <div>

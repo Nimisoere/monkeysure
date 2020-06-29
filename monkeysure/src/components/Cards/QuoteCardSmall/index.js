@@ -6,7 +6,7 @@ import { compareAttributes } from '../../../listings';
 const ListingCardGrid = ({ listing, btnConfig, type }) => {
   const attributes = compareAttributes.filter(attr => listing.attributes.includes(attr.key));
   return (
-    <div className={`listing-card grid ${listing.selected && type === 'compare' ? 'selected' : ''}`}>
+    <div className={`listing-card grid ${listing.selected && type === 'compare' ? 'selected' : ''}  sm:w-auto w-full`}>
       {
         listing.tag && <div className="card-tag">{listing?.tag}</div>
       }

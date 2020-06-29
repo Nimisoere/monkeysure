@@ -7,7 +7,26 @@
     min-height: 10rem;
   }
   .listing-wrapper {
-    flex-basis: 25%;
+    flex-basis: 100%;
+  }
+  @media (min-width: 640px) {
+    .listing-wrapper {
+      flex-basis: 100%;
+    }
+  }
+
+  /* Medium (md) */
+  @media (min-width: 768px) {
+    .listing-wrapper {
+      flex-basis: 50%;
+    }
+  }
+
+  /* Large (lg) */
+  @media (min-width: 1024px) {
+    .listing-wrapper {
+      flex-basis: 25%;
+    }  
   }
   .quotes-alert-wrapper {
     position: fixed;
