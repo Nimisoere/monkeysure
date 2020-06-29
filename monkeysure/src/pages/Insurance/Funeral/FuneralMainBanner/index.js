@@ -15,23 +15,23 @@ const FuneralBanner = ({ compare }) => {
             {
               compare ? (
                 <>
-                  <p className="font-light text-5xl color-primary">Compare funeral quotes</p>
-                  <p className="font-light text-base">You can add up to 3 quotes side by side</p>
+                  <p className="font-light text-5xl color-primary animate__animated animate__backInLeft">Compare funeral quotes</p>
+                  <p className="font-light text-base animate__animated animate__backInLeft">You can add up to 3 quotes side by side</p>
                 </>
               ) : (
                   <>
-                    <p className="font-light text-4xl color-primary">Funeral Insurance</p>
-                    <p className="font-light text-4xl">quotes made easy</p>
+                    <p className="font-light text-4xl color-primary animate__animated animate__backInLeft">Funeral Insurance</p>
+                    <p className="font-light text-4xl animate__animated animate__backInLeft">quotes made easy</p>
                   </>
                 )
             }
-            <div className="funeral-widget mt-4">
+            <div className="funeral-widget mt-4 animate__animated animate__backInUp">
               <h4 className="mb-1 text-base font-light">Get free funeral quote, select cover cost</h4>
               <FormGroup inputs={inputs} actionText="Continue" action={() => history.push(compare ? '/funeral/compare-quotes' : '/funeral/insurance-form')} />
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-center">
+        <div className="flex justify-end items-center  animate__animated animate__backInRight">
           <img src={funeralBackground} className="h-48" alt="tombstone" />
         </div>
       </div>

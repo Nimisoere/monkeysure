@@ -12,7 +12,7 @@ const FormGroup = ({ actionText, inputs, action = () => null }) => (
         )
       )
     }
-    <button className="form-group-btn" onClick={action} >{actionText}</button>
+    <button className="form-group-btn btn" onClick={action} >{actionText}</button>
   </div>
 )
 

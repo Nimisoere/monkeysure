@@ -11,9 +11,9 @@ const MainBanner = () => (
     <div className="container mx-auto py-24 flex items-center justify-between">
       <div>
         <div className="banner-text">
-          <p className="font-light text-5xl">Affordable</p>
-          <p className="font-light  text-5xl color-primary">car protection</p>
-          <p className="font-light text-5xl">products</p>
+          <p className="font-light text-5xl animate__animated animate__backInLeft">Affordable</p>
+          <p className="font-light  text-5xl color-primary animate__animated animate__backInLeft animate__delay-1s">car protection</p>
+          <p className="font-light text-5xl animate__animated animate__backInLeft animate__delay-2s">products</p>
         </div>
         <div className="flex py-4 items-center">
           <Link to="/">
@@ -25,8 +25,8 @@ const MainBanner = () => (
         </div>
       </div>
       <div className="flex justify-end items-center">
-        <img src={carBackground} width="500"  alt="car" />
-        <img src={shield} width="120" alt="car" />
+        <img className="animate__animated animate__backInRight" src={carBackground} width="500"  alt="car" />
+        <img className="animate__animated animate__backInUp" src={shield} width="120" alt="car" />
       </div>
     </div>
 

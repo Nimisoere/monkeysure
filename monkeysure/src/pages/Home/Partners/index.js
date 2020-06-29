@@ -31,40 +31,40 @@ const Partners = () => (
               variableWidth: true,
             }}
           >
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo h-8" src={logo1} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo2} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo3} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo4} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo5} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper  animate__animated animate__fadeIn">
               <img className="partner-logo h-8" src={logo6} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo7} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo8} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo9} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo10} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo11} alt="logo" />
             </div>
-            <div className="partner-logo-wrapper">
+            <div className="partner-logo-wrapper animate__animated animate__fadeIn">
               <img className="partner-logo  h-8" src={logo12} alt="logo" />
             </div>
           </Carousel>
