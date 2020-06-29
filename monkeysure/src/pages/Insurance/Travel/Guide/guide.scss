@@ -5,17 +5,39 @@
   .guide-row {
     border-bottom: thick solid #EEE;
     display: flex;
+    flex-wrap: wrap;
     padding: 3rem 0;
     justify-content: center;
     &:last-child {
       border: none;
     }
     .guide-div {
-      border-right: thin solid #EEE;
+      border-bottom: thin solid #EEE;
+      border-right: none;
       padding: 1rem 3rem;
-      flex-basis: 50%;
+      flex-basis: 100%;
       &:last-child {
         border: none;
+      }
+    }
+  }
+  @media (min-width: 640px) {
+    .guide-row {
+      border-bottom: thick solid #EEE;
+      display: flex;
+      padding: 3rem 0;
+      justify-content: center;
+      &:last-child {
+        border: none;
+      }
+      .guide-div {
+        border-right: thin solid #EEE;
+        border-bottom: none;
+        padding: 1rem 3rem;
+        flex-basis: 50%;
+        &:last-child {
+          border: none;
+        }
       }
     }
   }

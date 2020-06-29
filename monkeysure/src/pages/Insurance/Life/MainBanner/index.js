@@ -25,13 +25,13 @@ const FuneralBanner = ({ compare }) => {
                   </>
                 )
             }
-            <div className="funeral-widget mt-4 animate__animated animate__backInUp">
+            <div className="funeral-widget mt-4 mb-2 animate__animated animate__backInUp">
               <h4 className="mb-1 text-base font-light">Get free life insurance quote here</h4>
               <FormGroup inputs={inputs} actionText="Continue" action={() => history.push(compare ? '/life/compare-quotes' : '/life/insurance-form')} />
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-center animate__animated animate__backInRight">
+        <div className="sm:flex hidden justify-end items-center animate__animated animate__backInRight">
           <img src={lifeBackground} className="banner-img" alt="tombstone" />
         </div>
       </div>

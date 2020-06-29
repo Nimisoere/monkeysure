@@ -31,7 +31,7 @@ const FuneralBanner = ({ compare }) => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-center  animate__animated animate__backInRight">
+        <div className="sm:flex hidden justify-end items-center  animate__animated animate__backInRight">
           <img src={funeralBackground} className="h-48" alt="tombstone" />
         </div>
       </div>

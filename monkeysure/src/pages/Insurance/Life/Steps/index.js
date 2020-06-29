@@ -8,7 +8,7 @@ const Steps = () => (
         <h4 className="text-xl font-normal">Why do you need Life Insurance</h4>
         <p className="font-light">There and more are the benefits you stand to gain from a life insurance cover</p>
       </div>
-      <div className="w-full py-8 flex justify-center">
+      <div className="w-full py-8 sm:flex-no-wrap flex-wrap flex justify-center">
         <div className="steps-div">
           <div className="">
             <h4 className="text-lg font-normal">Life Insurance for Parents</h4>

@@ -33,6 +33,12 @@
         background: transparent;
       }
     }
+    @media (max-width: 639px) {
+      .form-control-select {
+        background: none;
+      }
+    }
+    
     .form-control-money {
       display: flex;
       justify-content: space-between;

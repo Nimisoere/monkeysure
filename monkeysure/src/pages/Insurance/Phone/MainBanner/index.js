@@ -8,9 +8,9 @@ import FormGroup from '../../../../components/Shared/FormControls/Formgroup/Form
 const PhoneBanner = ({ compare }) => {
   const history = useHistory();
   return (
-    <section className="phone-banner flex">
+    <section className="phone-banner flex flex-wrap">
       <div className="container mx-auto py-20 pb-0 flex items-center justify-between">
-        <div className=" self-start">
+        <div className="self-start">
           <div className="banner-text">
             {
               compare ? (
@@ -27,14 +27,14 @@ const PhoneBanner = ({ compare }) => {
             }
           </div>
         </div>
-        <div className="flex justify-end items-center animate__animated animate__backInRight">
+        <div className="sm:flex hidden justify-end items-center animate__animated animate__backInRight">
           <img src={lifeBackground} className="h-64" alt="car" />
         </div>
       </div>
       <div className="phone-widget animate__animated animate__slideInUp">
         <h4 className="mb-4 text-lg font-light">Get your free device Insurance Quote</h4>
         <div className="max-w-xl">
-          <FormGroup inputs={inputs} actionText="Search" action={() => history.push(compare ? '/phone/compare-quotes' : '/phone/insurance-form')} />
+          <FormGroup className="widget-form" inputs={inputs} actionText="Search" action={() => history.push(compare ? '/phone/compare-quotes' : '/phone/insurance-form')} />
         </div>
       </div>
     </section>

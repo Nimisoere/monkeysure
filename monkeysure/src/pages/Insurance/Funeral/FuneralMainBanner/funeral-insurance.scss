@@ -8,4 +8,10 @@
   .funeral-widget-input {
     min-width: 15rem;
   }
+  /* Medium (md) */
+  @media (max-width: 768px) {
+    .funeral-widget-input {
+      min-width: 0;
+    }
+  }
 }

@@ -13,7 +13,7 @@ const Brands = () => (
     <div className="container mx-auto py-10 flex items-center justify-between">
       <div className="w-full text-center">
         <h4 className="text-lg font-normal">Compare these phone insurance brands side by side</h4>
-        <div className="w-full flex items-center justify-center py-8">
+        <div className="w-full py-8">
           <Carousel
             settings={{
               arrows: false,

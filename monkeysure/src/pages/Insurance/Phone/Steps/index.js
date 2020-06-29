@@ -9,10 +9,10 @@ const Steps = () => (
         <h4 className="text-xl font-normal">Why do you need Device Insurance</h4>
         <p className="font-light">Considering how much it costs to get your gadget, not insuring it could be costly</p>
       </div>
-      <div className="w-full py-6 flex justify-center">
+      <div className="w-full sm:flex-no-wrap flex-wrap py-6 flex justify-center">
         <img src={iphone} alt="iphone" className="h-48" />
-        <div className="flex flex-col justify-center">
-          <div className="flex mb-6">
+        <div className="flex flex-col sm:flex-no-wrap flex-wrap justify-center">
+          <div className="flex mb-6 sm:flex-no-wrap flex-wrap">
             <div className="steps-div">
               <div className="mb-6">
                 <h4 className="text-lg font-normal">Device Repair</h4>
@@ -26,7 +26,7 @@ const Steps = () => (
               </div>
             </div>
           </div>
-          <div className="px-12">
+          <div className="px-12 flex sm:justify-start justify-center">
             <button className="btn bg-primary">Get a quote</button>
           </div>
         </div>

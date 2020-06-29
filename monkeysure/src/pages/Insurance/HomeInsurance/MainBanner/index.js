@@ -29,7 +29,7 @@ const Banner = ({ compare }) => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end items-center animate__animated animate__backInRight">
+        <div className="sm:flex hidden justify-end items-center animate__animated animate__backInRight">
           <img src={homeBackground} className="h-56" alt="car" />
         </div>
       </div>

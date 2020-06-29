@@ -8,7 +8,7 @@ const Steps = () => (
         <h4 className="text-xl font-normal">A quick guide to funeral insurance</h4>
         <p className="font-light">Before you proceed, the folowing info that help make an informed decision.</p>
       </div>
-      <div className="w-full py-12 flex justify-center">
+      <div className="w-full py-12 sm:flex-no-wrap flex-wrap flex justify-center">
         <div className="steps-div">
           <div className="mb-10">
             <h4 className="text-lg font-normal"> Funeral Cover for Parents</h4>

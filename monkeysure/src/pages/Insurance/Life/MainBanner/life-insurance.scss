@@ -11,4 +11,13 @@
   .life-widget-input {
     min-width: 15rem;
   }
+  .life-widget-input {
+    min-width: 15rem;
+  }
+  /* Medium (md) */
+  @media (max-width: 768px) {
+    .life-widget-input {
+      min-width: 0;
+    }
+  }
 }
