@@ -2,8 +2,11 @@ import React from 'react';
 import './quotes-table.scss';
 import { listings, compareAttributes } from '../../listings';
 import shield from '../../assets/images/Vector Smart Object copy 3.png';
+import { useHistory, useParams } from 'react-router';
 
 const QuotesTable = () => {
+  const history = useHistory();
+  const category = useParams()?.category;
   return (
     <div className="quotes-table">
       <div className="quotes-table-header mb-4" >
@@ -57,15 +60,15 @@ const QuotesTable = () => {
         {
           listings.map(listing => listing.selected && (
             <div key={listing.id} className="quotes-table-column">
-              <button className="btn bg-primary w-full">BUY NOW</button>
+              <button onClick={() => history.push(`/${category}/confirmation`)} className="btn bg-primary w-full">BUY NOW</button>
             </div>
           ))
         }
       </div>
       
         <div className="flex justify-between">
-          <button className="btn border-secondary">Choose different quotes</button>
-          <button className="btn border-secondary">Close comparison</button>
+          <button onClick={() => history.push(`/${category}/compare-quotes`)} className="btn border-secondary">Choose different quotes</button>
+          <button onClick={() => history.push('/')} className="btn border-secondary">Close comparison</button>
         </div>
 
     </div>

@@ -3,8 +3,12 @@ import phone from '../../assets/images/phone.png';
 import './compare.scss';
 import { listings } from '../../listings';
 import ListingCardGrid from '../../components/Cards/QuoteCardSmall';
+import { useParams, useHistory } from 'react-router-dom';
 
-const CompareQuotes = () => (
+const CompareQuotes = () => {
+  const history = useHistory();
+  const category = useParams()?.category;
+  return (
   <div className="compare">
     <div className="page-header">
       <div className="container mx-auto py-8 flex justify-between">
@@ -31,10 +35,10 @@ const CompareQuotes = () => (
     </div>
     <div className="quotes-alert-wrapper">
       <div className="quotes-alert">
-        Add up to 3 quotes <button className="btn ml-2 bg-primary">Compare quotes</button>
+        Add up to 3 quotes <button onClick={() => history.push(`/${category}/compare`)} className="btn ml-2 bg-primary">Compare quotes</button>
       </div>
     </div>
   </div>
-)
+)}
 
 export default CompareQuotes;

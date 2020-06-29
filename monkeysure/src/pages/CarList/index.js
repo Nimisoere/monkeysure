@@ -4,6 +4,7 @@ import './car-list.scss';
 import CustomerCard from '../../components/Cards/CustomerDetailCard';
 import car from '../../assets/images/car-green.png';
 import editIcon from '../../assets/images/edit.png';
+import { Link } from 'react-router-dom';
 
 const CarList = () => (
   <div className="car-list">
@@ -30,9 +31,9 @@ const CarList = () => (
             </div>
           </div>
           <div className="add-car-wrapper">
-            <button className="btn add-btn bg-primary mr-6">+</button> Add another car
+            <Link to="/cars" className="btn add-btn bg-primary mr-6">+</Link> Add another car
           </div>
-          <button className="btn proceed-btn bg-primary">Confirm</button>
+          <Link to="/cars/listing" className="btn proceed-btn bg-primary">Confirm</Link>
         </div>
         <div className="w-3/12">
           <CustomerCard customerDetails={{
@@ -42,15 +43,6 @@ const CarList = () => (
             address: '1, Streetname, Providence Street, off Admiralty Way, Lekki, Lagos',
             dob: '01/01/1994'
           }} />
-          <CustomerCard>
-            <div className="mb-3">
-              <h4 className="text-base">Apple Iphone 11</h4>
-              <p>Pro</p>
-            </div>
-            <div className="mb-3">
-              <h4><span className="font-normal">Phone no:</span> 0800 000 0000</h4>
-            </div>
-          </CustomerCard>
         </div>
 
       </div>

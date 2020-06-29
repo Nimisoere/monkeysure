@@ -1,11 +1,13 @@
 import React from 'react';
 import './customer-card.scss';
-import editIcon from '../../../assets/images/edit.png'
-const CustomerCard = ({ customerDetails={}, children }) => (
+import editIcon from '../../../assets/images/edit.png';
+import { Link } from 'react-router-dom';
+
+const CustomerCard = ({ customerDetails={}, category, children }) => (
   <div className="customer-card">
-    <div className="edit-icon">
+    <Link to={children ? `/${category}` : `/${category}/insurance-form`} className="edit-icon">
       <img src={editIcon} alt="" />
-    </div>
+    </Link>
     {
       children ? children : <div>
         <div className="mb-3">

@@ -1,6 +1,9 @@
 export const phoneInsuanceForm = {
   header: 'Personal Information',
   description: 'Please fill out the form to get accurate quotes. You can skip this step by entering your ID Number',
+  leadtext: 'Phone Insurance',
+  subtext: 'easy as you like',
+  action: () => null,
   fields: [
     {
       label: 'Firstname',
@@ -47,6 +50,9 @@ export const phoneInsuanceForm = {
 export const homeInsuanceForm = {
   header: 'Personal Information',
   description: 'Please fill out the form to get accurate quotes. You can skip this step by entering your ID Number',
+  leadtext: 'Home Insurance',
+  subtext: 'in simple steps',
+  action: () => null,
   fields: [
     {
       label: 'Firstname',
@@ -150,6 +156,9 @@ export const homeInsuanceForm = {
 export const funeralInsuanceForm = {
   header: 'Personal Information',
   description: 'Please fill out the form to get accurate quotes. You can skip this step by entering your ID Number',
+  leadtext: 'Funeral Insurance',
+  subtext: 'quotes made easy',
+  action: () => null,
   fields: [
     {
       label: 'Firstname',
@@ -207,6 +216,9 @@ export const funeralInsuanceForm = {
 export const lifeInsuanceForm = {
   header: 'Personal Information',
   description: 'Please fill out the form to get accurate quotes. You can skip this step by entering your ID Number',
+  leadtext: 'Life Insurance',
+  subtext: 'made easy',
+  action: () => null,
   fields: [
     {
       label: 'Firstname',
@@ -295,6 +307,9 @@ export const lifeInsuanceForm = {
 export const carInsuanceForm = {
   header: 'Personal Information',
   description: 'Please fill out the form to get accurate quotes. You can skip this step by entering your ID Number',
+  leadtext: 'Car Insurance',
+  subtext: 'in 2 simple steps',
+  action: () => null,
   fields: [
     {
       label: 'Firstname',
@@ -347,6 +362,9 @@ export const carInsuanceForm = {
 export const travelInsuanceForm = {
   header: 'Personal Information',
   description: 'Please fill out the form to get accurate quotes. You can skip this step by entering your ID Number',
+  leadtext: 'Travel Insurance',
+  subtext: 'Made easy',
+  action: () => null,
   fields: [
     {
       label: 'Firstname',

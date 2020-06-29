@@ -1,6 +1,7 @@
 import React from 'react';
 import { upsellData } from './constants';
 import './upsell.scss';
+import { Link } from 'react-router-dom';
 
 const Upsell = () => (
   <div className="upsell mt-16">
@@ -20,7 +21,9 @@ const Upsell = () => (
                 <div className="description mb-6">
                   {card.description}
                 </div>
-                <button className="btn button w-full">Select</button>
+                <Link to={card.link}>
+                  <button className="btn button w-full">Select</button>
+                </Link>
               </div>
             </div>
           ))

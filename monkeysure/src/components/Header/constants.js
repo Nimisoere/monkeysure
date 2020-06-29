@@ -17,7 +17,7 @@ export const menu = [
   },
   {
     text: 'Home',
-    link: '/home-insurance'
+    link: '/home'
   },
   {
     text: 'Life',

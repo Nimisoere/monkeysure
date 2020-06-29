@@ -21,7 +21,7 @@ export const menu = [
   },
   {
     text: 'Property Insurance',
-    link: '/home-insurance',
+    link: '/home',
     icon: houseIcon,
   },
 ]
