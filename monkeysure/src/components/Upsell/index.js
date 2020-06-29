@@ -7,10 +7,10 @@ const Upsell = () => (
   <div className="upsell mt-16">
     <div className="container mx-auto">
       <h4 className="text-base">Here are other top selling Monkeysure products we’ve selected for you</h4>
-      <div className="flex justify-between upsell-cards">
+      <div className="flex flex-wrap sm:justify-between justify-center upsell-cards">
         {
           upsellData.map((card, index) => (
-            <div className="upsell-card" key={index}>
+            <div className="upsell-card mb-4" key={index}>
               <div className="image">
                 <img src={card.image} alt={card.title} />
               </div>

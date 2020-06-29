@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './confirmation-card.scss';
 
 const ConfirmationCard = ({ price, tag, company, logo }) => (
-  <div className="confirmation-card">
+  <div className="confirmation-card sm:w-auto w-full">
     <div className="card-tag">{tag}</div>
     <div className="card-section">
       <div>

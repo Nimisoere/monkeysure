@@ -32,8 +32,8 @@ const ConfirmationDetails = () => {
 
   return (
     <div className="confirmation-details">
-      <div className="container mx-auto details-container">
-        <div className="flex justify-center">
+      <div className="container mx-auto sm:flex-no-wrap flex-wrap details-container">
+        <div className="flex sm:flex-no-wrap flex-wrap justify-center">
           <div className="detail">
             <h4 className="text-xl font-light">John Smith</h4>
             <p>johnsmith@mail.com</p>
