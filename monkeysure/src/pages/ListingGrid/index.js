@@ -14,6 +14,7 @@ import FuneralSideDetail from './Details/Funeral';
 import LifeSideDetail from './Details/Life';
 import HomeSideDetail from './Details/Home';
 import CarSideDetail from './Details/Car';
+import QuoteBanner from '../../components/QuoteBanner';
 
 const ListingGrid = () => {
   const history = useHistory();
@@ -84,6 +85,7 @@ const ListingGrid = () => {
               }
             </div>
             <Assistance />
+            <QuoteBanner category={category} />
             <p className="text-xs disclaimer">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus elit sed tortor feugiat eleifend. Aliquam tincidunt tellus ac nunc condimentum, vitae accumsan purus dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempus elit sed tortor feugiat eleifend. Aliquam tincidunt tellus ac nunc condimentum, vitae accumsan purus dignissim.
           </p>
