@@ -24,7 +24,7 @@ const MainBanner = () => (
           </Link>
         </div>
       </div>
-      <div className="flex justify-end items-center">
+      <div className="sm:flex justify-end items-center hidden">
         <img className="animate__animated animate__backInRight" src={carBackground} width="500"  alt="car" />
         <img className="animate__animated animate__backInUp" src={shield} width="120" alt="car" />
       </div>

@@ -3,7 +3,9 @@
   margin-top: -3rem;
   .banner-links {
     border-right: white solid thin;
-    padding: 1rem 2rem;
+    flex-basis: 25%;
+    text-align: center;
+    padding: 1rem 0.2rem;
     &:last-child {
       border: none;
     }

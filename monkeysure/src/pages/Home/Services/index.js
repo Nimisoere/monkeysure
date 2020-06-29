@@ -15,7 +15,7 @@ const Services = () => (
       <div className="w-full py-4">
         <Carousel settings={{
           dots: false,
-          slidesToShow: 4,
+          slidesToShow: 1,
           slidesToScroll: 1,
           variableWidth: true,
         }}>

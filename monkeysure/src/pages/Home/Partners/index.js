@@ -26,8 +26,8 @@ const Partners = () => (
           <Carousel
             settings={{
               arrows: false,
-              slidesToShow: 3,
-              slidesToScroll: 1,
+              slidesToShow: 1,
+              slidesToScroll: 5,
               variableWidth: true,
             }}
           >
