@@ -15,6 +15,7 @@ import LifeSideDetail from './Details/Life';
 import HomeSideDetail from './Details/Home';
 import CarSideDetail from './Details/Car';
 import QuoteBanner from '../../components/QuoteBanner';
+import HealthSideDetail from './Details/Health';
 
 const ListingGrid = () => {
   const history = useHistory();
@@ -35,6 +36,8 @@ const ListingGrid = () => {
         return <FuneralSideDetail />;
       case 'travel':
         return <TravelSideDetail />;
+      case 'health':
+          return <HealthSideDetail />;
       default:
         return ''
     }
@@ -54,6 +57,8 @@ const ListingGrid = () => {
         return 'list';
       case 'travel':
         return 'grid';
+      case 'health':
+          return 'grid';
       default:
         return {}
     }

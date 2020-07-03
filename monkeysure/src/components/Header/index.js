@@ -13,8 +13,8 @@ const Header = () => (
           <img src={logo} className="h-16" alt="logo" />
         </Link>
       </div>
-      <button class="flex items-center sm:hidden px-3 py-2">
-        <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
+      <button className="flex items-center sm:hidden px-3 py-2">
+        <svg className="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg>
       </button>
       <div className="sm:flex hidden sm:flex-wrap sm:w-auto w-full sm:justify-between justify-start sm:items-stretch">
         <div className="flex flex-wrap sm:w-auto w-full  sm:justify-between justify-start ">

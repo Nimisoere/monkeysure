@@ -16,6 +16,7 @@ import ListingGrid from './pages/ListingGrid';
 import CompareQuotesTable from './pages/CompareQuotesTable';
 import InsuranceForm from './pages/InsuranceForms';
 import CarList from './pages/CarList';
+import HealthInsurance from './pages/Insurance/Health';
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
           <Layout component={<HomeInsurance />} />
         </Route>
         <Route exact path="/health">
-          <Layout component={<LifeInsurance />} />
+          <Layout component={<HealthInsurance />} />
         </Route>
         <Route exact path="/phone">
           <Layout component={<PhoneInsurance />} />

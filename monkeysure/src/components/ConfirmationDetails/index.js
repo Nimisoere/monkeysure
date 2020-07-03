@@ -7,6 +7,7 @@ import PhoneConfirmationDetail from './Details/Phone';
 import FuneralConfirmationDetail from './Details/Funeral';
 import TravelConfirmationDetail from './Details/Travel';
 import { useParams } from 'react-router';
+import HealthConfirmationDetail from './Details/Health';
 
 const renderDetail = (category) => {
   switch (category) {
@@ -22,6 +23,8 @@ const renderDetail = (category) => {
       return <FuneralConfirmationDetail />;
     case 'travel':
       return <TravelConfirmationDetail />;
+    case 'health':
+      return <HealthConfirmationDetail />;
     default:
       return ''
   }

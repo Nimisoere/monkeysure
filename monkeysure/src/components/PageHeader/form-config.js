@@ -408,6 +408,76 @@ export const travelInsuanceForm = {
   ]
 }
 
+export const healthInsuanceForm = {
+  header: 'Personal Information',
+  description: 'Please fill out the form to get accurate quotes. You can skip this step by entering your ID Number',
+  leadtext: 'Health Insurance',
+  subtext: 'Made easy',
+  action: () => null,
+  fields: [
+    {
+      label: 'Firstname',
+      placeholder: 'Enter your Firstname',
+      type: 'text',
+      span: 6
+    },
+    {
+      label: 'Lastname',
+      placeholder: 'Enter your Lastname',
+      type: 'text',
+      span: 6
+    },
+    {
+      label: 'Date of birth',
+      type: 'date',
+      span: 6
+    },
+    {
+      label: 'Gender',
+      placeholder: 'M/F',
+      type: 'select',
+      span: 6,
+      options: [
+        {label: 'Male', value: 'male'},
+        {label: 'Female', value: 'female'}
+      ]
+    },
+    {
+      label: 'Marital Status',
+      placeholder: 'Please select',
+      type: 'select',
+      span: 6,
+      options: [
+        {label: 'Single', value: 'single'},
+        {label: 'Married', value: 'married'},
+        {label: 'Divorced', value: 'divorced'}
+      ]
+    },
+    {
+      label: 'Do you smoke?',
+      placeholder: 'Please select',
+      type: 'select',
+      span: 6,
+      options: [
+        {label: 'Yes', value: true},
+        {label: 'No', value: false}
+      ]
+    },
+    {
+      label: 'Email',
+      placeholder: 'Enter your primary email address',
+      type: 'email',
+      span: 12
+    },
+    {
+      label: 'Phone number',
+      placeholder: 'Enter your phone number',
+      type: 'phone',
+      span: 6
+    },
+  ]
+}
+
 export const homeRadioButtons = {
   header: 'More anbout your home',
   description: 'Please note that all fields are mandatory',

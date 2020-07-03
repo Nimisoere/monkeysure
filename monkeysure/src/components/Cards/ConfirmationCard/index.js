@@ -13,7 +13,7 @@ const ConfirmationCard = ({ price, tag, company, logo }) => (
         {company}
       </h4>
       <p>
-        <Link className="card-link">See details</Link>
+        <Link to="/" className="card-link">See details</Link>
       </p>
     </div>
     <div className="card-section price-section">

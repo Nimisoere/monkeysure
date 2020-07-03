@@ -19,7 +19,7 @@ const ListingCardGrid = ({ listing, btnConfig, type }) => {
         <h3 className="price">{listing.premium}</h3>
       </div>
       <div className="card-section">
-        <ul>{attributes.map(attr => <li>- {attr.label}</li>).slice(0, 3)}</ul>
+        <ul>{attributes.map((attr, index) => <li key={index}>- {attr.label}</li>).slice(0, 3)}</ul>
         <p>
           <Link to="/" className="card-link">More Information</Link>
         </p>
