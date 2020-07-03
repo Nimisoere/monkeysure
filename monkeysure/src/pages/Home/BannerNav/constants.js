@@ -25,3 +25,26 @@ export const menu = [
     icon: houseIcon,
   },
 ]
+
+export const more_menu = [
+  {
+    text: 'Device Insurance',
+    link: '/phone',
+    icon: carIcon,
+  },
+  {
+    text: 'Health Insurance',
+    link: '/health',
+    icon: planeIcon,
+  },
+  {
+    text: 'Funeral Insurance',
+    link: '/funeral',
+    icon: userIcon,
+  },
+  {
+    text: 'Cargo Insurance',
+    link: '/home',
+    icon: houseIcon,
+  },
+]

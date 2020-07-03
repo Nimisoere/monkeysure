@@ -1,13 +1,25 @@
 .banner-nav {
   border-radius: 10px;
   margin-top: -3rem;
+  &.more {
+    margin-top: 2px;
+    .banner-links {
+      flex-basis: 22%;
+    }
+  }
   .banner-links {
     border-right: white solid thin;
     flex-basis: 25%;
     text-align: center;
     padding: 1rem 0.2rem;
+    &:hover {
+      font-weight: bold;
+    }
     &:last-child {
       border: none;
+    }
+    &.more-link {
+      flex-shrink: 4;
     }
   }
 }
