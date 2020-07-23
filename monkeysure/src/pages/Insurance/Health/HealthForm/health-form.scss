@@ -1,0 +1,79 @@
+@import "../../../../color";
+
+.health-form {
+  font-weight: 400;
+  font-size: 0.9rem;
+  input[type="text"], input[type="number"] {
+    background: none;
+    border-bottom: $base-color-slate thin solid;
+    margin: 0 0.4rem;
+    min-width: auto;
+    text-align: center;
+  }
+  .radio-wrapper {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: center;
+  }
+  .radio-control {
+    justify-content: center;
+    align-items: stretch;
+    display: flex;
+    flex-basis: 33.33%;
+    input[type="radio"] {
+      display: none;
+    }
+    input[type="radio"] + label {
+      font-weight: 300;
+      justify-content: center;
+      align-items: center;
+      padding: 0.7rem 1rem;
+      display: flex;
+      cursor: pointer;
+    }
+    input[type="radio"]:checked + label {
+      font-weight: bold;
+      border-radius: 5px;
+      width: 100%;
+      background-color: $base-color-green;
+    }
+    input[type="radio"]:focus + label {
+      font-weight: bold;
+      border-radius: 5px;
+      background-color: $base-color-green;
+    }
+  }
+  .header-radio {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    max-width: 600px;
+    width: 100%;
+    background-color: #ddd;
+  }
+  .body-radio {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .radio-control {
+      justify-content: center;
+      align-items: stretch;
+      display: flex;
+      border-radius: 5px;
+      flex-basis: auto;
+      margin: 0 0.3rem;
+      margin-bottom: 0.5rem;
+      background-color: #ddd;
+      input[type="radio"] + label {
+        font-weight: 300;
+        justify-content: center;
+        align-items: center;
+        padding: 0.4rem 0.6rem;
+        display: flex;
+        cursor: pointer;
+      }
+    }
+  }
+  @media (min-width: 640px) {
+  }
+}
